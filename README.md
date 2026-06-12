@@ -1,62 +1,184 @@
-# Life Expectancy Prediction Using Linear Regression and PCA
+# Life Expectancy Prediction Pipeline Using SQL, Linear Regression, Regularization, PCA, and Power BI
 
 ## Project Overview
 
-This project predicts life expectancy using socioeconomic, mortality, health, and vaccination-related variables. The goal is to compare a selected-feature linear regression model against a PCA-based regression model, focusing on predictive accuracy, cross-validation stability, dimensionality reduction, and interpretability.
+This project predicts national life expectancy using socioeconomic, mortality, health, vaccination, and development-related variables.
+
+The original version of this project compared selected-feature Linear Regression against PCA-based regression. Version 2 expands the project into a reproducible end-to-end data science pipeline that combines:
+
+* SQL data preparation with DuckDB
+* Modular Python preprocessing and modeling scripts
+* Linear Regression, Ridge Regression, Lasso Regression, and PCA Regression
+* Cross-validation and regularization tuning
+* Prediction and residual analysis
+* Power BI dashboard outputs
+
+The goal is not only to compare model performance, but also to demonstrate a complete workflow from raw data to processed outputs, model evaluation, dashboard-ready files, and final analysis.
+
+---
 
 ## Dataset
 
-The dataset contains 2,928 observations and 22 variables. The target variable is `life_expectancy`.
+The dataset contains 2,928 country-year observations and 22 variables. The target variable is:
 
-The predictors include variables related to mortality, disease, economic development, healthcare expenditure, physical health indicators, vaccination rates, and country development status.
+```text
+life_expectancy
+```
+
+Predictors include variables related to:
+
+* Adult mortality
+* Infant and under-five deaths
+* Alcohol consumption
+* Healthcare expenditure
+* Vaccination rates
+* BMI and thinness indicators
+* HIV/AIDS
+* GDP and population
+* Schooling
+* Income composition of resources
+* Country development status
+
+The dataset covers observations from 2000 to 2015 across 183 countries.
+
+---
+
+## Project Workflow
+
+Version 2 of the project uses a reproducible pipeline:
+
+```text
+Raw CSV data
+    ↓
+DuckDB database
+    ↓
+SQL cleaning and modeling views
+    ↓
+Python preprocessing and modeling pipeline
+    ↓
+Processed CSV outputs
+    ↓
+Power BI dashboard
+```
+
+The full pipeline can be run from the terminal with:
+
+```bash
+python run_pipeline.py
+```
+
+This command:
+
+1. Builds the DuckDB database from the raw CSV.
+2. Creates clean SQL views and modeling views.
+3. Exports dashboard-ready summary tables.
+4. Tunes Ridge and Lasso regularization parameters.
+5. Evaluates final regression models.
+6. Exports model comparison results.
+7. Exports prediction and residual outputs for dashboarding.
+
+---
 
 ## Methods
 
-This project compares two regression approaches:
+This project compares four regression approaches:
 
-1. **Multiple Linear Regression without PCA**
-   - Uses selected predictors based on correlation with life expectancy.
-   - Prioritizes interpretability and direct feature-level explanation.
+| Model                   | Description                                                         |
+| ----------------------- | ------------------------------------------------------------------- |
+| Linear Regression       | Selected-feature regression model optimized for interpretability    |
+| Ridge Regression        | Linear model with L2 regularization                                 |
+| Lasso Regression        | Linear model with L1 regularization and potential feature shrinkage |
+| PCA + Linear Regression | Dimensionality-reduced regression using principal components        |
 
-2. **Linear Regression with PCA**
-   - Uses principal components after preprocessing and scaling.
-   - Prioritizes dimensionality reduction, stability, and reduced multicollinearity.
+The selected-feature models use six main predictors:
+
+* `adult_mortality`
+* `income_composition_of_resources`
+* `schooling`
+* `bmi`
+* `gdp`
+* `hiv_aids`
+
+The PCA model uses a larger selected predictor set reduced to three principal components.
+
+---
 
 ## Preprocessing Pipeline
 
-The preprocessing pipeline included:
+The preprocessing workflow includes:
 
-- cleaning column names
-- separating predictors and target variable
-- replacing certain zero values with missing values
-- applying log transformations to skewed variables
-- KNN imputation for missing values
-- dummy encoding categorical variables
-- removing high-cardinality country labels
-- standardizing features
-- optionally applying PCA
+* Cleaning column names
+* Removing high-cardinality country labels from the modeling feature matrix
+* Dummy encoding country development status
+* Replacing selected zero values with missing values
+* Applying log transformations to skewed predictors
+* KNN imputation for missing numerical predictors
+* Standard scaling
+* Optional PCA transformation
+
+All train/test preprocessing is fit on training data only to avoid data leakage.
+
+---
 
 ## Model Evaluation
 
-Models were evaluated using:
+Models are evaluated using:
 
-- Root Mean Squared Error, RMSE
-- R-squared, R²
-- cross-validation
-- train/test performance comparison
+* Root Mean Squared Error, RMSE
+* R-squared, R²
+* Repeated K-fold cross-validation
+* Holdout test-set performance
+* Train/test comparison
+* Residual and absolute error analysis
+
+Ridge and Lasso alpha values are tuned using cross-validation on the training set only.
+
+---
 
 ## Results
 
-| Model | Setup | Test RMSE | Test R² | Main Advantage |
-|---|---:|---:|---:|---|
-| Linear Regression | 6 selected features | ~2.97 | ~0.905 | Interpretability and slightly better raw accuracy |
-| PCA Regression | 3 principal components | ~3.13 | ~0.895 | Stability and dimensionality reduction |
+The final model comparison showed that Linear Regression, Ridge Regression, and Lasso Regression performed almost identically. PCA + Linear Regression produced slightly weaker test performance, but remained competitive and provided a lower-dimensional representation.
 
-## Visual Results
+| Model                   | Setup                               | Test RMSE | Test R² | Main Interpretation                                                   |
+| ----------------------- | ----------------------------------- | --------: | ------: | --------------------------------------------------------------------- |
+| Linear Regression       | 6 selected features                 |     ~2.86 |   ~0.91 | Best simple and interpretable model                                   |
+| Ridge Regression        | 6 selected features, tuned alpha    |     ~2.86 |   ~0.91 | Similar to Linear Regression; regularization added little improvement |
+| Lasso Regression        | 6 selected features, tuned alpha    |     ~2.86 |   ~0.91 | Similar performance with L1 regularization                            |
+| PCA + Linear Regression | 10 features reduced to 3 components |     ~3.08 |   ~0.89 | Lower-dimensional but slightly less accurate                          |
+
+Overall, the selected-feature Linear Regression model is the preferred final predictive model because it is accurate, simple, and interpretable. PCA remains useful as a dimensionality-reduction alternative.
+
+---
+
+## Power BI Dashboard
+
+A Power BI dashboard was created using the processed CSV outputs generated by the pipeline.
+
+### Dataset Overview
+
+This page summarizes the dataset size, country coverage, year range, average life expectancy trends, missingness, and development-status differences.
+
+![Power BI Dataset Overview](figures/powerbi_dataset_overview.png)
+
+### Model Performance
+
+This page compares final model performance, Ridge and Lasso tuning behavior, and Linear Regression coefficient magnitudes.
+
+![Power BI Model Performance](figures/powerbi_model_performance.png)
+
+### Prediction Error Analysis
+
+This page explores model prediction errors using actual vs. predicted life expectancy, average absolute error by status, average residuals over time, and the largest prediction errors.
+
+![Power BI Prediction Error Analysis](figures/powerbi_prediction_error_analysis.png)
+
+---
+
+## Original Model Visuals
+
+The original notebook version included feature-count and PCA-component sweeps.
 
 ### Linear Regression Feature Sweep
-
-The feature sweep compares model performance as the number of selected predictors increases.
 
 ![RMSE vs Number of Features](figures/rmse_vs_features.png)
 
@@ -64,27 +186,40 @@ The feature sweep compares model performance as the number of selected predictor
 
 ### PCA Component Sweep
 
-The PCA sweep compares model performance as the number of principal components increases.
-
 ![RMSE vs PCA Components](figures/rmse_vs_pca.png)
 
 ![R² vs PCA Components](figures/r2_vs_pca.png)
 
+---
+
 ## Key Findings
 
-The selected-feature linear regression model achieved slightly stronger raw predictive performance. However, the PCA regression model provided a lower-dimensional and more stable representation of the data.
+Linear Regression, Ridge Regression, and Lasso Regression performed nearly identically, suggesting that the selected predictors already capture most of the useful linear signal in the dataset.
 
-This suggests that many predictors in the dataset contain overlapping information, especially among health, mortality, and economic development variables. PCA was useful because it compressed correlated predictors into orthogonal components while retaining most of the predictive structure.
+Ridge Regression selected a very small optimal alpha value, meaning the regularized model behaved very similarly to standard Linear Regression. Lasso Regression also performed similarly, indicating that stronger coefficient shrinkage was not necessary for this selected feature set.
+
+PCA + Linear Regression had slightly weaker test performance, but it provided a compact lower-dimensional alternative. This supports the original project insight that many predictors contain overlapping information related to health, mortality, education, and economic development.
+
+Prediction error analysis showed that the final model generally tracks actual life expectancy well, though larger errors occur for some country-year observations. These larger errors may reflect historical, political, healthcare, economic, or data-quality conditions not fully captured by the selected predictors.
+
+The results should be interpreted as predictive associations rather than causal effects because the dataset is observational.
+
+---
 
 ## Technologies Used
 
-- Python
-- Jupyter Notebook
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- scikit-learn
+* Python
+* Pandas
+* NumPy
+* scikit-learn
+* Matplotlib
+* Seaborn
+* DuckDB
+* SQL
+* Jupyter Notebook
+* Power BI
+
+---
 
 ## Repository Structure
 
@@ -92,39 +227,115 @@ This suggests that many predictors in the dataset contain overlapping informatio
 life-expectancy-regression-pca/
 │
 ├── README.md
-├── life_expectancy_analysis.ipynb
 ├── requirements.txt
+├── run_pipeline.py
+├── life_expectancy_analysis.ipynb
+│
 ├── data/
-│   └── life_expectancy.csv
+│   ├── raw/
+│   │   └── life_expectancy.csv
+│   ├── database/
+│   │   └── life_expectancy.duckdb
+│   └── processed/
+│       ├── overview_summary.csv
+│       ├── status_summary.csv
+│       ├── year_summary.csv
+│       ├── country_summary.csv
+│       ├── missingness_summary.csv
+│       ├── modeling_life_expectancy.csv
+│       ├── ridge_alpha_tuning.csv
+│       ├── lasso_alpha_tuning.csv
+│       ├── model_comparison.csv
+│       ├── predictions.csv
+│       └── linear_regression_coefficients.csv
+│
+├── sql/
+│   ├── 01_create_raw_table.sql
+│   ├── 02_create_clean_view.sql
+│   ├── 03_data_quality_checks.sql
+│   ├── 04_create_modeling_view.sql
+│   └── 05_dashboard_exports.sql
+│
+├── src/
+│   ├── build_database.py
+│   ├── export_dashboard_data.py
+│   ├── export_model_outputs.py
+│   ├── evaluation.py
+│   ├── modeling.py
+│   └── preprocessing.py
+│
 ├── figures/
+│   ├── powerbi_dataset_overview.png
+│   ├── powerbi_model_performance.png
+│   ├── powerbi_prediction_error_analysis.png
 │   ├── rmse_vs_features.png
 │   ├── r2_vs_features.png
 │   ├── rmse_vs_pca.png
 │   └── r2_vs_pca.png
+│
+├── powerbi/
+│   └── life_expectancy_dashboard.pbix
+│
 └── report/
     └── academic_report.pdf
 ```
 
+---
+
 ## How to Run
 
-Clone the repository, install the required packages, and open the notebook.
+Clone the repository and install the required packages:
 
 ```bash
 pip install -r requirements.txt
 ```
 
+Run the full pipeline from the project root:
+
+```bash
+python run_pipeline.py
+```
+
+This regenerates the database, processed CSV files, model comparison outputs, and prediction outputs.
+
+To view the notebook walkthrough:
+
 ```bash
 jupyter notebook life_expectancy_analysis.ipynb
 ```
 
-Then run the notebook cells from top to bottom.
+To view the Power BI dashboard, open:
+
+```text
+powerbi/life_expectancy_dashboard.pbix
+```
+
+in Power BI Desktop.
+
+---
+
+## Original Academic Report
+
+The `report/` folder contains the original academic report from the first version of this project. The current repository extends that work into a reproducible SQL + Python pipeline with modular code, regularized regression models, prediction exports, and Power BI dashboard outputs.
+
+---
 
 ## Future Improvements
 
-Future improvements could include:
+This project is intentionally designed as an engineering-focused data science project, not only a modeling experiment. Future extensions would focus on making the workflow more production-like, reproducible, and deployable.
 
-- testing regularized regression models such as Ridge and Lasso
-- comparing tree-based models such as Random Forest or Gradient Boosting
-- adding nonlinear feature engineering
-- creating a cleaner Python script version of the notebook
-- deploying the final model as a simple prediction tool
+Potential next improvements include:
+
+- Adding a lightweight MLOps structure for experiment tracking, model versioning, and reproducible training runs
+- Using MLflow or a similar tool to track model parameters, metrics, artifacts, and comparison results
+- Deploying the final prediction model behind a FastAPI endpoint
+- Creating a simple API route that accepts country-year predictor inputs and returns a predicted life expectancy value
+- Containerizing the pipeline and API with Docker
+- Testing cloud-based storage or deployment options such as AWS S3, Google Cloud Storage, or Azure Blob Storage for processed outputs and model artifacts
+- Experimenting with cloud deployment for the FastAPI app using services such as Render, Railway, AWS, Azure, or Google Cloud
+- Adding automated pipeline checks to verify that processed outputs are regenerated correctly
+- Adding unit tests for preprocessing, model evaluation, and data export functions
+- Adding tree-based models such as Random Forest or Gradient Boosting for comparison against the linear-model baseline
+- Testing nonlinear feature engineering while keeping the pipeline modular and reproducible
+- Expanding the Power BI dashboard with interactive filters, additional residual diagnostics, and model comparison drilldowns
+- Automating dashboard data refresh from the generated pipeline outputs

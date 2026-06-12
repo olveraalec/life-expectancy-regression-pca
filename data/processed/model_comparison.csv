@@ -1,0 +1,5 @@
+model,setup,model_type,alpha,use_pca,n_components,cv_rmse_mean,cv_rmse_std,cv_r2_mean,cv_r2_std,test_rmse,test_r2,train_rmse,train_r2
+Linear Regression,6 selected features,linear,1.0,False,,2.8241,0.1051,0.9117,0.0084,2.8642,0.9089,2.8062,0.9134
+Ridge Regression,"6 selected features, tuned alpha=0.001",ridge,0.001,False,,2.8241,0.1052,0.9117,0.0084,2.8642,0.9089,2.8062,0.9134
+Lasso Regression,"6 selected features, tuned alpha=0.0001",lasso,0.0001,False,,2.8241,0.1052,0.9117,0.0084,2.8641,0.9089,2.8062,0.9134
+PCA + Linear Regression,10 selected features reduced to 3 PCA components,linear,1.0,True,3.0,3.1219,0.1174,0.8921,0.0104,3.0769,0.8949,3.0971,0.8945

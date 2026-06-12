@@ -1,0 +1,15 @@
+column_name,missing_count,missing_percent
+population,1850.0,63.18
+gdp,1284.0,43.85
+percentage_expenditure,1174.0,40.1
+hepatitis_b,553.0,18.89
+adult_mortality,521.0,17.79
+bmi,312.0,10.66
+income_composition_of_resources,290.0,9.9
+total_expenditure,226.0,7.72
+alcohol,193.0,6.59
+schooling,160.0,5.46
+thinness_1_19_years,32.0,1.09
+thinness_5_9_years,32.0,1.09
+diphtheria,19.0,0.65
+polio,19.0,0.65

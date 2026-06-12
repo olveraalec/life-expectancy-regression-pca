@@ -1,0 +1,1026 @@
+country,year,status,actual_life_expectancy,predicted_life_expectancy,residual,absolute_error
+South Africa,2009,Developing,56.5,55.42,1.08,1.08
+Bangladesh,2011,Developing,73.0,68.49,4.51,4.51
+Singapore,2012,Developed,82.5,83.63,-1.13,1.13
+Montenegro,2012,Developing,75.6,75.16,0.44,0.44
+Guinea-Bissau,2003,Developing,53.0,54.83,-1.83,1.83
+India,2007,Developing,65.2,67.69,-2.49,2.49
+Libya,2014,Developing,72.4,73.79,-1.39,1.39
+Hungary,2008,Developed,74.1,73.84,0.26,0.26
+Bosnia and Herzegovina,2013,Developing,77.0,74.67,2.33,2.33
+Kazakhstan,2009,Developing,67.8,70.0,-2.2,2.2
+Saint Vincent and the Grenadines,2014,Developing,73.1,72.42,0.68,0.68
+Barbados,2012,Developing,75.1,74.06,1.04,1.04
+Zimbabwe,2004,Developing,44.3,45.47,-1.17,1.17
+Zambia,2004,Developing,47.9,49.36,-1.46,1.46
+Morocco,2015,Developing,74.3,74.81,-0.51,0.51
+Serbia,2011,Developing,74.6,75.18,-0.58,0.58
+China,2005,Developing,73.9,73.8,0.1,0.1
+Cuba,2013,Developing,78.7,77.72,0.98,0.98
+Central African Republic,2000,Developing,46.0,49.79,-3.79,3.79
+Venezuela (Bolivarian Republic of),2004,Developing,73.3,71.98,1.32,1.32
+Rwanda,2010,Developing,62.8,58.28,4.52,4.52
+Japan,2011,Developed,82.5,82.05,0.45,0.45
+Cabo Verde,2008,Developing,72.4,70.59,1.81,1.81
+Kenya,2015,Developing,63.4,61.64,1.76,1.76
+Dominican Republic,2000,Developing,72.0,67.36,4.64,4.64
+Lesotho,2001,Developing,47.8,48.06,-0.26,0.26
+Lesotho,2013,Developing,52.1,52.19,-0.09,0.09
+Tunisia,2014,Developing,75.1,72.69,2.41,2.41
+Cameroon,2008,Developing,54.2,54.95,-0.75,0.75
+Denmark,2007,Developed,78.4,80.05,-1.65,1.65
+Morocco,2013,Developing,73.9,74.27,-0.37,0.37
+Maldives,2009,Developing,76.3,75.78,0.52,0.52
+Mauritania,2007,Developing,61.2,62.3,-1.1,1.1
+Nepal,2014,Developing,69.6,67.09,2.51,2.51
+Libya,2009,Developing,72.7,74.9,-2.2,2.2
+Djibouti,2002,Developing,57.9,55.56,2.34,2.34
+Georgia,2013,Developing,74.5,75.11,-0.61,0.61
+Guatemala,2003,Developing,69.4,69.46,-0.06,0.06
+Côte d'Ivoire,2008,Developing,54.0,55.96,-1.96,1.96
+Maldives,2007,Developing,75.4,74.49,0.91,0.91
+Cameroon,2000,Developing,51.4,54.07,-2.67,2.67
+Mongolia,2011,Developing,67.3,68.59,-1.29,1.29
+Malta,2003,Developed,78.5,80.04,-1.54,1.54
+Somalia,2013,Developing,54.2,60.22,-6.02,6.02
+Chile,2000,Developing,77.3,75.91,1.39,1.39
+Micronesia (Federated States of),2011,Developing,68.9,70.47,-1.57,1.57
+Italy,2000,Developed,79.4,79.64,-0.24,0.24
+Solomon Islands,2007,Developing,67.6,69.05,-1.45,1.45
+Bolivia (Plurinational State of),2001,Developing,63.3,65.82,-2.52,2.52
+Gambia,2011,Developing,59.8,58.94,0.86,0.86
+Jordan,2000,Developing,71.7,73.69,-1.99,1.99
+Saudi Arabia,2006,Developing,73.2,73.53,-0.33,0.33
+Solomon Islands,2002,Developing,66.5,68.06,-1.56,1.56
+Sudan,2000,Developing,58.6,60.11,-1.51,1.51
+Timor-Leste,2013,Developing,67.7,69.14,-1.44,1.44
+Mauritius,2009,Developing,72.8,71.68,1.12,1.12
+Uzbekistan,2014,Developing,69.2,70.47,-1.27,1.27
+Peru,2005,Developing,72.8,71.81,0.99,0.99
+Panama,2007,Developing,76.4,74.84,1.56,1.56
+Burkina Faso,2005,Developing,53.3,56.94,-3.64,3.64
+Nicaragua,2007,Developing,72.5,68.9,3.6,3.6
+Vanuatu,2000,Developing,69.0,70.29,-1.29,1.29
+Niger,2011,Developing,59.4,58.55,0.85,0.85
+Angola,2012,Developing,56.0,57.51,-1.51,1.51
+Malawi,2011,Developing,54.1,52.07,2.03,2.03
+Spain,2010,Developed,81.9,82.14,-0.24,0.24
+Syrian Arab Republic,2015,Developing,64.5,64.16,0.34,0.34
+Burundi,2008,Developing,55.3,54.22,1.08,1.08
+Slovakia,2000,Developed,73.0,74.08,-1.08,1.08
+Jordan,2005,Developing,72.4,74.47,-2.07,2.07
+Bosnia and Herzegovina,2004,Developing,75.5,76.2,-0.7,0.7
+China,2015,Developing,76.1,77.21,-1.11,1.11
+Lebanon,2006,Developing,74.1,73.68,0.42,0.42
+Estonia,2010,Developing,75.6,76.03,-0.43,0.43
+Uganda,2005,Developing,53.2,52.06,1.14,1.14
+Colombia,2011,Developing,74.2,72.61,1.59,1.59
+Tunisia,2013,Developing,74.9,74.84,0.06,0.06
+Brazil,2013,Developing,74.7,73.09,1.61,1.61
+Oman,2002,Developing,73.3,74.51,-1.21,1.21
+Panama,2011,Developing,77.3,75.71,1.59,1.59
+Antigua and Barbuda,2012,Developing,75.9,74.65,1.25,1.25
+Malta,2010,Developed,83.0,81.56,1.44,1.44
+Suriname,2012,Developing,71.3,70.05,1.25,1.25
+Mongolia,2002,Developing,63.8,65.74,-1.94,1.94
+Poland,2012,Developed,76.8,76.55,0.25,0.25
+Namibia,2014,Developing,65.9,64.29,1.61,1.61
+Iran (Islamic Republic of),2010,Developing,74.1,73.51,0.59,0.59
+Czechia,2008,Developed,77.0,77.9,-0.9,0.9
+China,2002,Developing,72.7,72.21,0.49,0.49
+Côte d'Ivoire,2010,Developing,51.5,56.04,-4.54,4.54
+Djibouti,2012,Developing,62.2,60.26,1.94,1.94
+Spain,2002,Developed,79.5,79.3,0.2,0.2
+Luxembourg,2012,Developed,81.1,80.07,1.03,1.03
+Brunei Darussalam,2015,Developing,77.7,81.37,-3.67,3.67
+Kazakhstan,2007,Developing,65.3,68.27,-2.97,2.97
+Liberia,2000,Developing,51.9,53.93,-2.03,2.03
+Iran (Islamic Republic of),2011,Developing,74.7,76.81,-2.11,2.11
+Philippines,2006,Developing,67.3,67.88,-0.58,0.58
+Solomon Islands,2001,Developing,66.2,63.14,3.06,3.06
+Norway,2006,Developed,84.0,79.9,4.1,4.1
+Russian Federation,2012,Developing,69.6,70.59,-0.99,0.99
+Chile,2010,Developing,79.1,78.86,0.24,0.24
+Montenegro,2008,Developing,74.6,75.88,-1.28,1.28
+Bosnia and Herzegovina,2011,Developing,76.9,76.44,0.46,0.46
+Zimbabwe,2013,Developing,58.0,55.1,2.9,2.9
+Serbia,2015,Developing,75.6,75.24,0.36,0.36
+Equatorial Guinea,2013,Developing,57.4,59.54,-2.14,2.14
+Viet Nam,2013,Developing,75.7,71.92,3.78,3.78
+Madagascar,2010,Developing,63.3,62.7,0.6,0.6
+Bangladesh,2004,Developing,67.3,66.58,0.72,0.72
+Spain,2011,Developed,82.1,82.36,-0.26,0.26
+Belize,2015,Developing,71.0,71.1,-0.1,0.1
+Central African Republic,2013,Developing,49.9,52.05,-2.15,2.15
+Costa Rica,2011,Developing,79.0,76.95,2.05,2.05
+United Arab Emirates,2005,Developing,75.3,78.98,-3.68,3.68
+Australia,2003,Developed,83.0,82.05,0.95,0.95
+Switzerland,2012,Developed,82.7,85.09,-2.39,2.39
+Romania,2007,Developed,72.9,73.26,-0.36,0.36
+Lao People's Democratic Republic,2003,Developing,59.8,62.21,-2.41,2.41
+Cuba,2005,Developing,77.2,74.46,2.74,2.74
+Democratic People's Republic of Korea,2014,Developing,73.0,72.81,0.19,0.19
+Viet Nam,2015,Developing,76.0,72.2,3.8,3.8
+Seychelles,2008,Developing,72.2,71.1,1.1,1.1
+Cambodia,2003,Developing,63.0,59.18,3.82,3.82
+Maldives,2005,Developing,74.3,73.45,0.85,0.85
+Suriname,2009,Developing,70.0,69.43,0.57,0.57
+Egypt,2006,Developing,69.5,69.98,-0.48,0.48
+Georgia,2015,Developing,74.4,75.42,-1.02,1.02
+Trinidad and Tobago,2008,Developing,69.9,71.78,-1.88,1.88
+Algeria,2015,Developing,75.6,75.01,0.59,0.59
+Morocco,2012,Developing,73.6,73.81,-0.21,0.21
+Micronesia (Federated States of),2005,Developing,67.9,69.57,-1.67,1.67
+Sierra Leone,2013,Developing,54.0,59.33,-5.33,5.33
+Japan,2001,Developed,81.5,80.44,1.06,1.06
+Norway,2008,Developed,86.0,83.49,2.51,2.51
+Kuwait,2010,Developing,74.0,78.85,-4.85,4.85
+France,2001,Developed,79.0,78.26,0.74,0.74
+Kazakhstan,2003,Developing,64.4,67.74,-3.34,3.34
+Greece,2002,Developing,79.0,80.08,-1.08,1.08
+Israel,2015,Developing,82.5,84.44,-1.94,1.94
+Libya,2010,Developing,72.8,74.9,-2.1,2.1
+Samoa,2005,Developing,71.6,72.79,-1.19,1.19
+India,2004,Developing,64.0,64.49,-0.49,0.49
+Israel,2009,Developing,81.5,83.27,-1.77,1.77
+Malaysia,2013,Developing,74.6,75.44,-0.84,0.84
+Swaziland,2012,Developing,56.5,54.33,2.17,2.17
+Austria,2002,Developed,78.7,77.45,1.25,1.25
+Mozambique,2013,Developing,55.3,53.55,1.75,1.75
+New Zealand,2015,Developed,81.6,82.89,-1.29,1.29
+Republic of Moldova,2000,Developing,67.1,70.18,-3.08,3.08
+Guinea-Bissau,2000,Developing,52.1,53.82,-1.72,1.72
+United Arab Emirates,2003,Developing,74.9,78.65,-3.75,3.75
+Papua New Guinea,2004,Developing,59.9,58.33,1.57,1.57
+Spain,2012,Developed,82.0,82.72,-0.72,0.72
+United States of America,2004,Developed,77.5,77.25,0.25,0.25
+Uruguay,2012,Developing,76.5,76.17,0.33,0.33
+Thailand,2008,Developing,73.5,70.84,2.66,2.66
+Slovenia,2003,Developed,76.5,76.77,-0.27,0.27
+Madagascar,2000,Developing,57.9,59.34,-1.44,1.44
+Philippines,2000,Developing,66.8,66.92,-0.12,0.12
+Bolivia (Plurinational State of),2010,Developing,68.7,71.81,-3.11,3.11
+Senegal,2006,Developing,61.3,60.88,0.42,0.42
+The former Yugoslav republic of Macedonia,2010,Developing,74.7,74.58,0.12,0.12
+Togo,2000,Developing,54.6,55.11,-0.51,0.51
+United Republic of Tanzania,2000,Developing,49.2,52.86,-3.66,3.66
+Bahamas,2000,Developing,72.6,70.34,2.26,2.26
+Bhutan,2007,Developing,66.5,63.43,3.07,3.07
+Iraq,2011,Developing,77.0,71.7,5.3,5.3
+Somalia,2004,Developing,51.2,59.92,-8.72,8.72
+Mauritius,2004,Developing,71.9,70.8,1.1,1.1
+Republic of Moldova,2003,Developing,67.6,69.9,-2.3,2.3
+Bangladesh,2013,Developing,71.0,69.57,1.43,1.43
+Burundi,2001,Developing,51.3,50.87,0.43,0.43
+Bosnia and Herzegovina,2014,Developing,77.2,77.43,-0.23,0.23
+Bahrain,2013,Developing,76.7,78.16,-1.46,1.46
+Equatorial Guinea,2009,Developing,55.7,57.23,-1.53,1.53
+Myanmar,2002,Developing,62.8,61.43,1.37,1.37
+Slovenia,2014,Developed,87.0,81.39,5.61,5.61
+Papua New Guinea,2003,Developing,59.6,58.62,0.98,0.98
+Indonesia,2004,Developing,65.3,67.47,-2.17,2.17
+United Republic of Tanzania,2014,Developing,67.0,61.66,5.34,5.34
+Zambia,2000,Developing,43.8,47.95,-4.15,4.15
+Albania,2001,Developing,73.6,73.91,-0.31,0.31
+Comoros,2010,Developing,61.8,62.51,-0.71,0.71
+Jamaica,2013,Developing,75.6,73.11,2.49,2.49
+Lebanon,2003,Developing,73.5,75.45,-1.95,1.95
+Congo,2013,Developing,63.9,61.66,2.24,2.24
+Montenegro,2007,Developing,74.2,75.44,-1.24,1.24
+Portugal,2006,Developed,78.5,77.22,1.28,1.28
+China,2004,Developing,73.5,72.79,0.71,0.71
+Malaysia,2008,Developing,73.8,74.14,-0.34,0.34
+Luxembourg,2014,Developed,81.7,82.96,-1.26,1.26
+Japan,2005,Developed,82.0,81.12,0.88,0.88
+Guinea-Bissau,2012,Developing,57.6,56.25,1.35,1.35
+Bahamas,2013,Developing,74.8,74.01,0.79,0.79
+Bulgaria,2012,Developed,73.9,74.59,-0.69,0.69
+Cabo Verde,2011,Developing,72.6,71.17,1.43,1.43
+Netherlands,2006,Developed,79.8,81.96,-2.16,2.16
+Nepal,2009,Developing,67.5,65.09,2.41,2.41
+Haiti,2011,Developing,62.3,60.92,1.38,1.38
+Guinea,2007,Developing,56.4,56.36,0.04,0.04
+Poland,2007,Developed,75.3,74.71,0.59,0.59
+South Sudan,2005,Developing,51.9,52.08,-0.18,0.18
+Antigua and Barbuda,2006,Developing,74.8,73.85,0.95,0.95
+Honduras,2005,Developing,72.5,67.69,4.81,4.81
+Luxembourg,2008,Developed,80.0,79.33,0.67,0.67
+Italy,2009,Developed,81.6,82.76,-1.16,1.16
+Angola,2000,Developing,45.3,57.11,-11.81,11.81
+Guyana,2009,Developing,66.1,67.13,-1.03,1.03
+Greece,2007,Developing,79.4,76.41,2.99,2.99
+Bhutan,2005,Developing,65.0,63.54,1.46,1.46
+Algeria,2002,Developing,71.6,71.76,-0.16,0.16
+Slovakia,2012,Developed,75.8,76.84,-1.04,1.04
+The former Yugoslav republic of Macedonia,2005,Developing,73.6,75.57,-1.97,1.97
+Greece,2003,Developing,79.1,79.96,-0.86,0.86
+Ecuador,2014,Developing,76.0,74.83,1.17,1.17
+Mali,2003,Developing,52.0,55.32,-3.32,3.32
+Argentina,2015,Developing,76.3,77.1,-0.8,0.8
+Uzbekistan,2010,Developing,68.3,69.92,-1.62,1.62
+Saudi Arabia,2014,Developing,74.4,79.83,-5.43,5.43
+Argentina,2002,Developing,74.1,74.45,-0.35,0.35
+Solomon Islands,2009,Developing,68.1,65.56,2.54,2.54
+Saint Vincent and the Grenadines,2013,Developing,72.7,72.24,0.46,0.46
+Sao Tome and Principe,2013,Developing,67.1,66.45,0.65,0.65
+Central African Republic,2005,Developing,45.9,48.34,-2.44,2.44
+Burkina Faso,2004,Developing,52.4,56.33,-3.93,3.93
+Panama,2000,Developing,75.7,74.15,1.55,1.55
+Sudan,2006,Developing,61.0,63.9,-2.9,2.9
+Montenegro,2003,Developing,73.5,67.58,5.92,5.92
+Norway,2012,Developed,81.3,84.53,-3.23,3.23
+Madagascar,2005,Developing,69.0,61.49,7.51,7.51
+Lithuania,2002,Developed,71.4,76.15,-4.75,4.75
+Armenia,2009,Developing,73.3,73.78,-0.48,0.48
+Malta,2006,Developed,79.3,80.95,-1.65,1.65
+Chile,2011,Developing,79.8,79.58,0.22,0.22
+Guinea,2009,Developing,57.3,56.42,0.88,0.88
+El Salvador,2012,Developing,73.0,69.78,3.22,3.22
+Portugal,2000,Developed,76.6,77.52,-0.92,0.92
+Cuba,2011,Developing,78.8,77.57,1.23,1.23
+Haiti,2000,Developing,58.6,56.02,2.58,2.58
+Belgium,2004,Developed,78.8,79.45,-0.65,0.65
+Belarus,2000,Developing,68.0,67.76,0.24,0.24
+Norway,2004,Developed,79.8,82.13,-2.33,2.33
+Tunisia,2012,Developing,74.9,74.23,0.67,0.67
+Turkey,2009,Developing,73.9,74.88,-0.98,0.98
+Greece,2005,Developing,79.3,79.52,-0.22,0.22
+Peru,2003,Developing,72.1,71.2,0.9,0.9
+Algeria,2003,Developing,71.7,71.9,-0.2,0.2
+Italy,2003,Developed,79.9,80.73,-0.83,0.83
+Senegal,2007,Developing,62.1,59.15,2.95,2.95
+Switzerland,2013,Developed,83.0,85.43,-2.43,2.43
+Papua New Guinea,2012,Developing,62.2,61.23,0.97,0.97
+Malaysia,2003,Developing,73.1,73.3,-0.2,0.2
+Jamaica,2002,Developing,73.0,69.04,3.96,3.96
+Indonesia,2008,Developing,67.7,68.5,-0.8,0.8
+Germany,2007,Developed,79.8,81.03,-1.23,1.23
+Israel,2010,Developing,81.7,83.54,-1.84,1.84
+Uruguay,2001,Developing,75.2,74.87,0.33,0.33
+Norway,2003,Developed,79.4,81.97,-2.57,2.57
+Bulgaria,2006,Developed,72.2,72.99,-0.79,0.79
+Viet Nam,2003,Developing,74.0,70.31,3.69,3.69
+Iran (Islamic Republic of),2002,Developing,71.2,72.16,-0.96,0.96
+Swaziland,2011,Developing,55.0,53.2,1.8,1.8
+Brazil,2001,Developing,71.0,70.2,0.8,0.8
+Chad,2006,Developing,48.5,50.77,-2.27,2.27
+Congo,2002,Developing,52.6,54.34,-1.74,1.74
+Oman,2008,Developing,75.2,74.53,0.67,0.67
+Swaziland,2008,Developing,51.4,50.62,0.78,0.78
+Cameroon,2001,Developing,51.5,53.14,-1.64,1.64
+South Sudan,2006,Developing,52.5,52.01,0.49,0.49
+Denmark,2010,Developed,79.2,81.13,-1.93,1.93
+Tajikistan,2005,Developing,65.5,67.17,-1.67,1.67
+El Salvador,2014,Developing,73.3,70.13,3.17,3.17
+Montenegro,2011,Developing,75.4,76.81,-1.41,1.41
+Japan,2004,Developed,82.1,81.12,0.98,0.98
+Cyprus,2001,Developed,78.2,80.64,-2.44,2.44
+Mozambique,2004,Developing,54.0,49.2,4.8,4.8
+Ireland,2000,Developed,76.4,78.62,-2.22,2.22
+Luxembourg,2001,Developed,78.0,78.97,-0.97,0.97
+Kyrgyzstan,2013,Developing,77.0,69.73,7.27,7.27
+Ghana,2012,Developing,61.6,63.23,-1.63,1.63
+Djibouti,2003,Developing,58.0,55.66,2.34,2.34
+Mexico,2007,Developing,76.0,74.92,1.08,1.08
+Kuwait,2015,Developing,74.7,79.75,-5.05,5.05
+Burkina Faso,2013,Developing,59.0,58.18,0.82,0.82
+Tonga,2015,Developing,73.5,74.15,-0.65,0.65
+Panama,2013,Developing,77.5,76.09,1.41,1.41
+Antigua and Barbuda,2009,Developing,75.4,74.15,1.25,1.25
+Nicaragua,2004,Developing,71.0,67.33,3.67,3.67
+Cuba,2004,Developing,77.3,72.59,4.71,4.71
+Guatemala,2010,Developing,77.0,67.48,9.52,9.52
+Angola,2007,Developing,48.2,56.14,-7.94,7.94
+Libya,2008,Developing,72.6,74.45,-1.85,1.85
+Colombia,2008,Developing,73.5,72.19,1.31,1.31
+Cambodia,2013,Developing,67.8,66.17,1.63,1.63
+France,2003,Developed,79.3,78.53,0.77,0.77
+South Sudan,2007,Developing,53.1,52.0,1.1,1.1
+Ukraine,2008,Developing,67.7,67.88,-0.18,0.18
+Ecuador,2010,Developing,75.0,72.69,2.31,2.31
+Chad,2000,Developing,47.6,55.18,-7.58,7.58
+Thailand,2002,Developing,71.4,68.57,2.83,2.83
+Grenada,2011,Developing,72.9,74.44,-1.54,1.54
+Fiji,2008,Developing,68.7,72.57,-3.87,3.87
+Romania,2006,Developed,72.5,72.95,-0.45,0.45
+Poland,2013,Developed,77.1,78.76,-1.66,1.66
+Congo,2005,Developing,55.3,55.51,-0.21,0.21
+Canada,2010,Developing,81.2,77.17,4.03,4.03
+Mongolia,2006,Developing,65.0,66.52,-1.52,1.52
+Democratic Republic of the Congo,2008,Developing,56.3,56.76,-0.46,0.46
+Côte d'Ivoire,2012,Developing,52.0,56.18,-4.18,4.18
+Romania,2013,Developed,74.6,74.84,-0.24,0.24
+Turkmenistan,2000,Developing,63.8,62.98,0.82,0.82
+Thailand,2012,Developing,74.3,72.17,2.13,2.13
+Australia,2007,Developed,81.3,82.95,-1.65,1.65
+Vanuatu,2013,Developing,71.6,70.6,1.0,1.0
+Micronesia (Federated States of),2002,Developing,66.2,72.87,-6.67,6.67
+Congo,2009,Developing,68.0,59.54,8.46,8.46
+Kyrgyzstan,2010,Developing,68.8,67.83,0.97,0.97
+Seychelles,2004,Developing,72.1,70.54,1.56,1.56
+El Salvador,2000,Developing,69.0,66.68,2.32,2.32
+Belarus,2006,Developing,68.9,69.14,-0.24,0.24
+Mongolia,2000,Developing,62.8,65.09,-2.29,2.29
+Ecuador,2005,Developing,74.2,71.4,2.8,2.8
+Armenia,2000,Developing,72.0,71.48,0.52,0.52
+United Republic of Tanzania,2003,Developing,58.0,53.25,4.75,4.75
+Barbados,2005,Developing,73.9,75.28,-1.38,1.38
+Egypt,2008,Developing,69.8,70.36,-0.56,0.56
+Iraq,2012,Developing,76.0,71.7,4.3,4.3
+United States of America,2015,Developed,79.3,83.74,-4.44,4.44
+South Sudan,2000,Developing,48.9,53.01,-4.11,4.11
+Malaysia,2011,Developing,74.3,75.51,-1.21,1.21
+Czechia,2011,Developed,77.8,78.28,-0.48,0.48
+New Zealand,2006,Developed,79.9,81.01,-1.11,1.11
+Saint Vincent and the Grenadines,2008,Developing,72.1,71.1,1.0,1.0
+Kyrgyzstan,2004,Developing,67.1,66.79,0.31,0.31
+India,2003,Developing,63.7,64.18,-0.48,0.48
+Gambia,2014,Developing,68.0,59.52,8.48,8.48
+Myanmar,2001,Developing,62.5,60.95,1.55,1.55
+Morocco,2009,Developing,72.3,72.02,0.28,0.28
+Zimbabwe,2015,Developing,67.0,57.39,9.61,9.61
+Romania,2015,Developed,75.0,75.37,-0.37,0.37
+Papua New Guinea,2010,Developing,61.8,60.74,1.06,1.06
+Turkey,2004,Developing,72.0,72.88,-0.88,0.88
+Lao People's Democratic Republic,2012,Developing,64.4,65.73,-1.33,1.33
+Guinea-Bissau,2014,Developing,58.4,57.33,1.07,1.07
+Albania,2002,Developing,73.3,72.29,1.01,1.01
+Oman,2006,Developing,74.7,75.55,-0.85,0.85
+Finland,2000,Developing,77.5,75.53,1.97,1.97
+Panama,2002,Developing,75.7,74.29,1.41,1.41
+Jordan,2007,Developing,73.0,73.76,-0.76,0.76
+Saint Vincent and the Grenadines,2001,Developing,79.0,68.77,10.23,10.23
+Nigeria,2012,Developing,52.7,56.59,-3.89,3.89
+India,2009,Developing,66.0,67.94,-1.94,1.94
+Bahrain,2003,Developing,75.0,79.12,-4.12,4.12
+Bahamas,2005,Developing,74.1,73.69,0.41,0.41
+Cambodia,2000,Developing,57.7,57.63,0.07,0.07
+Algeria,2004,Developing,72.3,73.33,-1.03,1.03
+Argentina,2008,Developing,75.4,75.69,-0.29,0.29
+Eritrea,2004,Developing,59.1,55.7,3.4,3.4
+Germany,2008,Developed,79.9,79.46,0.44,0.44
+Benin,2005,Developing,56.5,58.35,-1.85,1.85
+Trinidad and Tobago,2014,Developing,71.1,72.65,-1.55,1.55
+United Arab Emirates,2006,Developing,75.4,79.3,-3.9,3.9
+Burundi,2011,Developing,57.4,56.4,1.0,1.0
+Yemen,2008,Developing,63.8,63.41,0.39,0.39
+Israel,2006,Developing,84.0,82.48,1.52,1.52
+Czechia,2009,Developed,77.1,79.73,-2.63,2.63
+Slovenia,2009,Developed,79.1,78.21,0.89,0.89
+Georgia,2001,Developing,73.0,73.39,-0.39,0.39
+South Africa,2007,Developing,54.5,53.81,0.69,0.69
+Azerbaijan,2010,Developing,71.1,73.48,-2.38,2.38
+Georgia,2012,Developing,74.2,73.77,0.43,0.43
+Canada,2000,Developing,79.1,80.79,-1.69,1.69
+Republic of Korea,2000,Developing,76.0,74.92,1.08,1.08
+Kazakhstan,2000,Developing,63.9,66.53,-2.63,2.63
+Portugal,2005,Developed,77.7,76.76,0.94,0.94
+Germany,2009,Developed,80.0,81.54,-1.54,1.54
+Austria,2009,Developed,82.0,80.82,1.18,1.18
+Costa Rica,2013,Developing,79.4,77.54,1.86,1.86
+Turkey,2008,Developing,73.5,73.77,-0.27,0.27
+Denmark,2009,Developed,78.9,80.71,-1.81,1.81
+Ghana,2009,Developing,66.0,61.54,4.46,4.46
+Spain,2008,Developed,81.3,78.33,2.97,2.97
+Seychelles,2014,Developing,73.0,75.55,-2.55,2.55
+Turkmenistan,2001,Developing,64.0,64.46,-0.46,0.46
+Russian Federation,2009,Developing,68.2,69.56,-1.36,1.36
+Malta,2005,Developed,79.0,80.73,-1.73,1.73
+Slovenia,2006,Developed,78.1,78.35,-0.25,0.25
+Iran (Islamic Republic of),2005,Developing,72.0,73.03,-1.03,1.03
+Barbados,2002,Developing,73.5,73.64,-0.14,0.14
+Namibia,2003,Developing,55.0,52.62,2.38,2.38
+Haiti,2008,Developing,62.1,60.2,1.9,1.9
+Sierra Leone,2012,Developing,49.7,55.62,-5.92,5.92
+Republic of Korea,2009,Developing,86.0,77.49,8.51,8.51
+Bahamas,2002,Developing,73.1,75.9,-2.8,2.8
+Sri Lanka,2008,Developing,72.3,71.28,1.02,1.02
+Philippines,2009,Developing,68.0,68.12,-0.12,0.12
+Singapore,2000,Developed,78.3,79.11,-0.81,0.81
+Italy,2002,Developed,80.0,80.67,-0.67,0.67
+Saint Lucia,2000,Developing,71.6,69.65,1.95,1.95
+Iraq,2005,Developing,66.8,71.37,-4.57,4.57
+Kuwait,2002,Developing,73.3,78.11,-4.81,4.81
+Bolivia (Plurinational State of),2005,Developing,65.7,66.58,-0.88,0.88
+Azerbaijan,2007,Developing,73.0,72.99,0.01,0.01
+Lao People's Democratic Republic,2008,Developing,62.6,64.19,-1.59,1.59
+Madagascar,2006,Developing,61.4,61.66,-0.26,0.26
+Benin,2015,Developing,60.0,61.37,-1.37,1.37
+Belize,2001,Developing,68.2,71.13,-2.93,2.93
+Iraq,2003,Developing,66.5,68.16,-1.66,1.66
+United Kingdom of Great Britain and Northern Ireland,2002,Developed,78.2,79.04,-0.84,0.84
+Senegal,2009,Developing,63.5,62.11,1.39,1.39
+Equatorial Guinea,2000,Developing,52.7,55.11,-2.41,2.41
+Haiti,2002,Developing,59.3,56.44,2.86,2.86
+Denmark,2015,Developed,86.0,82.35,3.65,3.65
+Colombia,2007,Developing,73.5,72.15,1.35,1.35
+Ukraine,2015,Developing,71.3,71.52,-0.22,0.22
+Iran (Islamic Republic of),2001,Developing,78.0,71.91,6.09,6.09
+Turkmenistan,2014,Developing,66.0,69.1,-3.1,3.1
+Syrian Arab Republic,2013,Developing,63.6,72.48,-8.88,8.88
+Denmark,2003,Developed,77.3,79.14,-1.84,1.84
+Belize,2014,Developing,70.0,70.99,-0.99,0.99
+Poland,2002,Developed,74.5,74.36,0.14,0.14
+Austria,2004,Developed,79.3,79.28,0.02,0.02
+Turkey,2015,Developing,75.8,74.8,1.0,1.0
+United Kingdom of Great Britain and Northern Ireland,2008,Developed,79.6,79.86,-0.26,0.26
+Fiji,2014,Developing,69.7,74.82,-5.12,5.12
+Syrian Arab Republic,2014,Developing,64.4,64.72,-0.32,0.32
+Belgium,2001,Developed,78.0,78.55,-0.55,0.55
+Colombia,2003,Developing,72.4,71.37,1.03,1.03
+Kenya,2000,Developing,51.9,51.9,0.0,0.0
+Poland,2003,Developed,74.7,74.62,0.08,0.08
+Switzerland,2015,Developed,83.4,86.19,-2.79,2.79
+Bahamas,2007,Developing,74.4,74.38,0.02,0.02
+Saudi Arabia,2008,Developing,73.3,77.81,-4.51,4.51
+Poland,2010,Developed,76.3,77.82,-1.52,1.52
+Panama,2010,Developing,76.5,75.44,1.06,1.06
+Finland,2011,Developing,83.0,79.74,3.26,3.26
+Bhutan,2012,Developing,68.7,64.8,3.9,3.9
+Ecuador,2009,Developing,75.1,72.52,2.58,2.58
+Cabo Verde,2014,Developing,73.0,72.31,0.69,0.69
+Uzbekistan,2005,Developing,67.3,68.36,-1.06,1.06
+Burkina Faso,2007,Developing,55.3,56.22,-0.92,0.92
+Japan,2014,Developed,83.5,83.54,-0.04,0.04
+Sierra Leone,2004,Developing,42.3,51.58,-9.28,9.28
+Austria,2008,Developed,84.0,80.76,3.24,3.24
+Romania,2000,Developed,77.0,71.28,5.72,5.72
+Saint Vincent and the Grenadines,2015,Developing,73.2,72.47,0.73,0.73
+Egypt,2013,Developing,79.0,71.48,7.52,7.52
+Brazil,2000,Developing,75.0,69.86,5.14,5.14
+Tajikistan,2011,Developing,68.1,69.3,-1.2,1.2
+Kenya,2001,Developing,51.9,51.86,0.04,0.04
+Sao Tome and Principe,2007,Developing,65.1,63.52,1.58,1.58
+Solomon Islands,2008,Developing,68.0,65.28,2.72,2.72
+Saudi Arabia,2013,Developing,74.3,79.5,-5.2,5.2
+Kiribati,2014,Developing,66.1,70.84,-4.74,4.74
+El Salvador,2002,Developing,73.0,68.67,4.33,4.33
+Cambodia,2006,Developing,64.1,62.38,1.72,1.72
+Guatemala,2013,Developing,71.4,67.97,3.43,3.43
+Côte d'Ivoire,2003,Developing,48.0,51.83,-3.83,3.83
+Eritrea,2006,Developing,59.7,57.42,2.28,2.28
+Timor-Leste,2005,Developing,63.7,66.94,-3.24,3.24
+Luxembourg,2015,Developed,82.0,83.4,-1.4,1.4
+Barbados,2013,Developing,75.2,75.7,-0.5,0.5
+Saint Lucia,2003,Developing,72.2,70.38,1.82,1.82
+Indonesia,2002,Developing,66.7,67.93,-1.23,1.23
+Qatar,2001,Developing,76.3,79.77,-3.47,3.47
+Panama,2006,Developing,76.2,74.95,1.25,1.25
+Brazil,2002,Developing,71.4,70.49,0.91,0.91
+Burkina Faso,2001,Developing,56.0,54.28,1.72,1.72
+Grenada,2002,Developing,79.0,71.7,7.3,7.3
+Djibouti,2000,Developing,57.4,55.31,2.09,2.09
+Central African Republic,2004,Developing,45.7,48.11,-2.41,2.41
+Yemen,2004,Developing,62.2,62.64,-0.44,0.44
+Ethiopia,2014,Developing,64.2,61.31,2.89,2.89
+Gabon,2001,Developing,59.8,58.77,1.03,1.03
+Zimbabwe,2000,Developing,46.0,46.16,-0.16,0.16
+Burkina Faso,2008,Developing,56.1,56.7,-0.6,0.6
+Nepal,2015,Developing,69.2,67.5,1.7,1.7
+Armenia,2003,Developing,72.7,72.5,0.2,0.2
+Venezuela (Bolivarian Republic of),2009,Developing,73.6,73.13,0.47,0.47
+Iran (Islamic Republic of),2009,Developing,73.3,74.73,-1.43,1.43
+Canada,2009,Developing,81.0,82.85,-1.85,1.85
+Turkey,2006,Developing,72.8,73.58,-0.78,0.78
+Bosnia and Herzegovina,2003,Developing,75.2,74.92,0.28,0.28
+Iraq,2006,Developing,64.7,67.15,-2.45,2.45
+Colombia,2010,Developing,73.6,73.62,-0.02,0.02
+Nigeria,2001,Developing,47.4,55.57,-8.17,8.17
+Turkmenistan,2002,Developing,63.3,64.1,-0.8,0.8
+United Arab Emirates,2010,Developing,76.2,80.18,-3.98,3.98
+Burkina Faso,2000,Developing,51.0,54.03,-3.03,3.03
+Kiribati,2000,Developing,64.1,64.95,-0.85,0.85
+Swaziland,2015,Developing,58.9,56.6,2.3,2.3
+Chile,2008,Developing,79.6,79.06,0.54,0.54
+Turkey,2005,Developing,72.4,73.17,-0.77,0.77
+Estonia,2005,Developing,72.8,73.15,-0.35,0.35
+Chile,2015,Developing,85.0,80.5,4.5,4.5
+Liberia,2009,Developing,59.2,57.48,1.72,1.72
+Gabon,2010,Developing,62.3,61.34,0.96,0.96
+Cabo Verde,2015,Developing,73.3,72.39,0.91,0.91
+Bangladesh,2008,Developing,69.1,67.94,1.16,1.16
+Niger,2010,Developing,58.2,57.73,0.47,0.47
+Nepal,2011,Developing,68.4,66.28,2.12,2.12
+Venezuela (Bolivarian Republic of),2002,Developing,73.1,71.68,1.42,1.42
+Bhutan,2014,Developing,69.4,65.59,3.81,3.81
+Belgium,2009,Developed,79.8,80.46,-0.66,0.66
+Slovakia,2002,Developed,73.7,73.74,-0.04,0.04
+Benin,2004,Developing,56.1,58.2,-2.1,2.1
+Guinea-Bissau,2001,Developing,52.5,53.96,-1.46,1.46
+Belarus,2008,Developing,70.0,70.46,-0.46,0.46
+Cabo Verde,2004,Developing,71.4,65.49,5.91,5.91
+Bolivia (Plurinational State of),2006,Developing,66.2,66.79,-0.59,0.59
+Syrian Arab Republic,2004,Developing,73.2,71.23,1.97,1.97
+Ecuador,2001,Developing,73.4,70.62,2.78,2.78
+Armenia,2015,Developing,74.8,75.44,-0.64,0.64
+Italy,2006,Developed,81.2,82.03,-0.83,0.83
+Poland,2015,Developed,77.5,77.44,0.06,0.06
+Georgia,2005,Developing,73.9,73.65,0.25,0.25
+Kyrgyzstan,2012,Developing,69.9,72.42,-2.52,2.52
+United States of America,2003,Developed,77.2,77.01,0.19,0.19
+Switzerland,2004,Developed,81.0,82.32,-1.32,1.32
+Poland,2004,Developed,74.9,74.61,0.29,0.29
+Morocco,2011,Developing,73.3,72.2,1.1,1.1
+Armenia,2007,Developing,73.5,73.81,-0.31,0.31
+Guyana,2005,Developing,65.0,64.77,0.23,0.23
+South Africa,2005,Developing,53.8,53.32,0.48,0.48
+Sweden,2006,Developed,88.0,82.8,5.2,5.2
+Uganda,2013,Developing,67.0,57.27,9.73,9.73
+Belarus,2013,Developing,71.7,76.64,-4.94,4.94
+Cyprus,2009,Developed,79.3,78.45,0.85,0.85
+Qatar,2010,Developing,77.3,81.16,-3.86,3.86
+Libya,2001,Developing,71.0,72.91,-1.91,1.91
+Singapore,2006,Developed,87.0,81.73,5.27,5.27
+Somalia,2002,Developing,58.0,59.75,-1.75,1.75
+Cameroon,2015,Developing,57.3,57.77,-0.47,0.47
+Libya,2002,Developing,71.1,72.85,-1.75,1.75
+Congo,2008,Developing,59.4,58.43,0.97,0.97
+Libya,2012,Developing,72.9,73.52,-0.62,0.62
+United Republic of Tanzania,2002,Developing,52.0,56.24,-4.24,4.24
+Somalia,2006,Developing,51.5,60.29,-8.79,8.79
+Pakistan,2014,Developing,66.2,67.95,-1.75,1.75
+Barbados,2011,Developing,74.9,75.3,-0.4,0.4
+Afghanistan,2003,Developing,56.7,59.08,-2.38,2.38
+Fiji,2000,Developing,67.7,68.32,-0.62,0.62
+Burundi,2009,Developing,56.2,54.02,2.18,2.18
+Japan,2006,Developed,82.4,81.34,1.06,1.06
+Thailand,2000,Developing,71.1,67.49,3.61,3.61
+Saudi Arabia,2001,Developing,72.8,75.62,-2.82,2.82
+Mozambique,2009,Developing,53.8,50.73,3.07,3.07
+Togo,2007,Developing,55.9,55.55,0.35,0.35
+Central African Republic,2002,Developing,45.6,49.77,-4.17,4.17
+Israel,2008,Developing,81.0,83.0,-2.0,2.0
+Czechia,2010,Developed,77.5,78.15,-0.65,0.65
+Saint Vincent and the Grenadines,2012,Developing,72.8,72.04,0.76,0.76
+The former Yugoslav republic of Macedonia,2012,Developing,75.1,75.02,0.08,0.08
+Chad,2009,Developing,57.0,52.2,4.8,4.8
+Zimbabwe,2003,Developing,44.5,45.63,-1.13,1.13
+Greece,2012,Developing,84.0,81.25,2.75,2.75
+Pakistan,2011,Developing,65.5,67.26,-1.76,1.76
+Guatemala,2007,Developing,75.0,67.03,7.97,7.97
+Russian Federation,2007,Developing,67.3,68.79,-1.49,1.49
+Eritrea,2001,Developing,58.1,55.79,2.31,2.31
+Lesotho,2010,Developing,51.1,50.86,0.24,0.24
+Namibia,2012,Developing,65.8,63.44,2.36,2.36
+Vanuatu,2008,Developing,75.0,69.34,5.66,5.66
+Brazil,2009,Developing,73.6,72.06,1.54,1.54
+Republic of Korea,2006,Developing,79.4,78.5,0.9,0.9
+Sweden,2015,Developed,82.4,85.0,-2.6,2.6
+Belize,2012,Developing,69.4,70.6,-1.2,1.2
+Czechia,2002,Developed,75.3,79.1,-3.8,3.8
+Slovakia,2001,Developed,73.3,73.7,-0.4,0.4
+South Africa,2015,Developing,62.9,62.21,0.69,0.69
+Republic of Moldova,2015,Developing,72.1,72.23,-0.13,0.13
+Slovenia,2002,Developed,76.6,76.9,-0.3,0.3
+Equatorial Guinea,2005,Developing,54.4,59.34,-4.94,4.94
+Kuwait,2012,Developing,74.3,79.14,-4.84,4.84
+Equatorial Guinea,2003,Developing,53.8,59.39,-5.59,5.59
+Trinidad and Tobago,2004,Developing,69.4,68.41,0.99,0.99
+Serbia,2005,Developing,73.0,74.09,-1.09,1.09
+Cambodia,2007,Developing,65.0,61.66,3.34,3.34
+Cambodia,2001,Developing,58.5,58.21,0.29,0.29
+Saint Lucia,2009,Developing,74.3,72.75,1.55,1.55
+Sri Lanka,2004,Developing,69.1,69.64,-0.54,0.54
+Brunei Darussalam,2002,Developing,74.8,78.27,-3.47,3.47
+Myanmar,2011,Developing,65.6,64.08,1.52,1.52
+Gambia,2013,Developing,66.0,59.49,6.51,6.51
+Pakistan,2012,Developing,65.7,67.45,-1.75,1.75
+Serbia,2012,Developing,74.9,75.49,-0.59,0.59
+Mauritius,2002,Developing,71.5,70.05,1.45,1.45
+United Republic of Tanzania,2008,Developing,56.2,54.81,1.39,1.39
+Sweden,2008,Developed,81.1,83.18,-2.08,2.08
+Guinea-Bissau,2015,Developing,58.9,57.71,1.19,1.19
+New Zealand,2009,Developed,85.0,81.5,3.5,3.5
+Tunisia,2000,Developing,72.9,73.29,-0.39,0.39
+Saudi Arabia,2011,Developing,73.9,78.96,-5.06,5.06
+Guinea-Bissau,2004,Developing,53.5,54.6,-1.1,1.1
+Chile,2001,Developing,77.3,74.27,3.03,3.03
+Iceland,2005,Developed,81.0,82.33,-1.33,1.33
+Ukraine,2011,Developing,75.0,73.23,1.77,1.77
+Saint Lucia,2008,Developing,74.1,72.42,1.68,1.68
+Tajikistan,2013,Developing,69.3,69.51,-0.21,0.21
+Switzerland,2010,Developed,82.3,84.4,-2.1,2.1
+Ireland,2002,Developed,77.4,79.44,-2.04,2.04
+Tunisia,2009,Developing,74.7,74.09,0.61,0.61
+Uzbekistan,2006,Developing,67.6,68.6,-1.0,1.0
+Lebanon,2004,Developing,73.7,75.71,-2.01,2.01
+United States of America,2008,Developed,78.2,77.44,0.76,0.76
+Venezuela (Bolivarian Republic of),2005,Developing,73.6,72.36,1.24,1.24
+Dominican Republic,2011,Developing,73.1,69.1,4.0,4.0
+Cabo Verde,2012,Developing,72.7,71.33,1.37,1.37
+Sweden,2009,Developed,81.4,83.33,-1.93,1.93
+Belarus,2002,Developing,67.2,67.66,-0.46,0.46
+Guinea-Bissau,2010,Developing,56.7,55.91,0.79,0.79
+Armenia,2002,Developing,72.6,72.12,0.48,0.48
+Pakistan,2006,Developing,64.2,66.24,-2.04,2.04
+Bahamas,2012,Developing,74.9,74.01,0.89,0.89
+Spain,2001,Developed,79.4,79.24,0.16,0.16
+Belgium,2003,Developed,78.3,79.03,-0.73,0.73
+Nicaragua,2012,Developing,73.9,70.42,3.48,3.48
+Tajikistan,2007,Developing,66.1,67.6,-1.5,1.5
+Ghana,2000,Developing,57.2,58.5,-1.3,1.3
+Djibouti,2008,Developing,62.0,58.02,3.98,3.98
+Lao People's Democratic Republic,2002,Developing,59.3,61.87,-2.57,2.57
+Guyana,2003,Developing,65.3,64.44,0.86,0.86
+Seychelles,2013,Developing,72.9,72.2,0.7,0.7
+Grenada,2007,Developing,71.9,73.46,-1.56,1.56
+Italy,2007,Developed,81.3,82.2,-0.9,0.9
+Viet Nam,2002,Developing,73.8,70.03,3.77,3.77
+Singapore,2005,Developed,82.0,81.14,0.86,0.86
+Eritrea,2005,Developing,59.4,58.23,1.17,1.17
+Slovenia,2010,Developed,79.5,79.93,-0.43,0.43
+Cambodia,2002,Developing,59.3,58.59,0.71,0.71
+Ghana,2006,Developing,59.4,59.85,-0.45,0.45
+Azerbaijan,2002,Developing,67.8,71.58,-3.78,3.78
+Namibia,2007,Developing,60.0,56.79,3.21,3.21
+Myanmar,2014,Developing,66.4,68.2,-1.8,1.8
+Malawi,2003,Developing,44.6,45.92,-1.32,1.32
+United Kingdom of Great Britain and Northern Ireland,2001,Developed,78.0,78.94,-0.94,0.94
+Belarus,2001,Developing,67.7,67.64,0.06,0.06
+France,2002,Developed,79.2,78.32,0.88,0.88
+Viet Nam,2014,Developing,75.9,72.31,3.59,3.59
+Nicaragua,2011,Developing,74.5,70.22,4.28,4.28
+Armenia,2011,Developing,73.9,74.51,-0.61,0.61
+Bolivia (Plurinational State of),2004,Developing,65.1,66.27,-1.17,1.17
+Turkmenistan,2009,Developing,65.6,66.56,-0.96,0.96
+Haiti,2007,Developing,61.8,59.39,2.41,2.41
+Samoa,2011,Developing,73.0,73.28,-0.28,0.28
+Saudi Arabia,2007,Developing,73.2,77.51,-4.31,4.31
+Belize,2010,Developing,69.5,70.49,-0.99,0.99
+Haiti,2012,Developing,62.3,61.93,0.37,0.37
+Philippines,2007,Developing,67.5,67.92,-0.42,0.42
+Switzerland,2008,Developed,82.0,79.22,2.78,2.78
+Estonia,2012,Developing,76.3,76.54,-0.24,0.24
+Bahrain,2012,Developing,76.5,80.77,-4.27,4.27
+Serbia,2013,Developing,75.3,75.68,-0.38,0.38
+Somalia,2005,Developing,51.6,60.09,-8.49,8.49
+Papua New Guinea,2006,Developing,68.0,59.46,8.54,8.54
+Swaziland,2002,Developing,46.4,48.61,-2.21,2.21
+Philippines,2013,Developing,68.1,68.46,-0.36,0.36
+Canada,2015,Developing,82.2,84.2,-2.0,2.0
+Mauritania,2004,Developing,64.0,61.57,2.43,2.43
+Viet Nam,2007,Developing,74.7,70.47,4.23,4.23
+Somalia,2008,Developing,51.9,60.08,-8.18,8.18
+Panama,2003,Developing,75.5,74.46,1.04,1.04
+Guatemala,2014,Developing,71.7,68.13,3.57,3.57
+Gabon,2015,Developing,66.0,65.94,0.06,0.06
+Solomon Islands,2012,Developing,68.7,66.1,2.6,2.6
+Romania,2008,Developed,73.1,73.09,0.01,0.01
+Ethiopia,2006,Developing,57.2,54.67,2.53,2.53
+Democratic People's Republic of Korea,2001,Developing,66.6,71.07,-4.47,4.47
+Namibia,2009,Developing,62.4,57.45,4.95,4.95
+Kuwait,2001,Developing,73.2,78.26,-5.06,5.06
+Qatar,2013,Developing,77.9,77.14,0.76,0.76
+Latvia,2000,Developed,71.0,69.25,1.75,1.75
+Belgium,2008,Developed,79.5,80.05,-0.55,0.55
+Yemen,2000,Developing,68.0,61.69,6.31,6.31
+The former Yugoslav republic of Macedonia,2009,Developing,74.4,75.55,-1.15,1.15
+Peru,2010,Developing,73.7,71.66,2.04,2.04
+Sierra Leone,2007,Developing,45.3,55.11,-9.81,9.81
+Botswana,2004,Developing,48.1,50.43,-2.33,2.33
+Turkmenistan,2006,Developing,63.7,64.72,-1.02,1.02
+United Republic of Tanzania,2001,Developing,49.6,55.17,-5.57,5.57
+Sao Tome and Principe,2002,Developing,63.1,62.48,0.62,0.62
+Cuba,2000,Developing,76.9,74.07,2.83,2.83
+Kenya,2013,Developing,62.6,61.1,1.5,1.5
+Democratic Republic of the Congo,2006,Developing,55.0,58.17,-3.17,3.17
+Thailand,2015,Developing,74.9,72.93,1.97,1.97
+Timor-Leste,2000,Developing,58.7,57.29,1.41,1.41
+Lithuania,2003,Developed,71.6,76.38,-4.78,4.78
+Maldives,2006,Developing,75.0,73.76,1.24,1.24
+Ghana,2013,Developing,61.9,63.45,-1.55,1.55
+Rwanda,2004,Developing,53.4,52.11,1.29,1.29
+Cabo Verde,2002,Developing,77.0,67.76,9.24,9.24
+Costa Rica,2006,Developing,78.0,73.3,4.7,4.7
+Ukraine,2014,Developing,78.0,71.04,6.96,6.96
+New Zealand,2005,Developed,79.9,80.79,-0.89,0.89
+Gambia,2010,Developing,59.3,58.4,0.9,0.9
+Kiribati,2013,Developing,65.8,70.9,-5.1,5.1
+Liberia,2015,Developing,61.4,59.99,1.41,1.41
+Swaziland,2007,Developing,50.0,48.95,1.05,1.05
+China,2012,Developing,75.4,75.91,-0.51,0.51
+Serbia,2000,Developing,72.6,72.85,-0.25,0.25
+Uganda,2007,Developing,55.5,53.13,2.37,2.37
+Belize,2008,Developing,69.6,70.72,-1.12,1.12
+Mauritania,2001,Developing,61.0,61.53,-0.53,0.53
+Pakistan,2003,Developing,63.5,65.22,-1.72,1.72
+Brazil,2014,Developing,74.8,73.57,1.23,1.23
+Barbados,2015,Developing,75.5,77.61,-2.11,2.11
+Suriname,2010,Developing,73.0,71.62,1.38,1.38
+Egypt,2004,Developing,69.0,69.57,-0.57,0.57
+Kyrgyzstan,2001,Developing,67.2,66.61,0.59,0.59
+Sri Lanka,2006,Developing,73.8,72.65,1.15,1.15
+Mozambique,2010,Developing,54.0,51.02,2.98,2.98
+Angola,2006,Developing,47.7,56.17,-8.47,8.47
+France,2011,Developed,81.7,80.75,0.95,0.95
+Zimbabwe,2010,Developing,52.4,50.06,2.34,2.34
+Colombia,2014,Developing,74.6,73.09,1.51,1.51
+Uganda,2011,Developing,59.3,55.71,3.59,3.59
+Belarus,2010,Developing,73.0,71.19,1.81,1.81
+Mali,2010,Developing,56.5,58.33,-1.83,1.83
+Djibouti,2006,Developing,59.1,54.21,4.89,4.89
+Equatorial Guinea,2002,Developing,53.5,59.61,-6.11,6.11
+Germany,2006,Developed,79.6,80.72,-1.12,1.12
+Liberia,2005,Developing,55.3,55.44,-0.14,0.14
+Ukraine,2005,Developing,67.0,66.72,0.28,0.28
+Tunisia,2006,Developing,74.4,73.42,0.98,0.98
+Democratic People's Republic of Korea,2012,Developing,69.8,74.32,-4.52,4.52
+Burundi,2007,Developing,54.8,52.7,2.1,2.1
+Antigua and Barbuda,2010,Developing,75.6,74.68,0.92,0.92
+Turkey,2010,Developing,74.2,74.96,-0.76,0.76
+Equatorial Guinea,2007,Developing,55.0,58.63,-3.63,3.63
+Malaysia,2012,Developing,74.5,75.27,-0.77,0.77
+India,2012,Developing,67.3,70.95,-3.65,3.65
+Iceland,2004,Developed,88.0,81.78,6.22,6.22
+Somalia,2003,Developing,51.1,59.84,-8.74,8.74
+Costa Rica,2003,Developing,78.0,72.1,5.9,5.9
+Denmark,2005,Developed,78.1,79.98,-1.88,1.88
+Ireland,2008,Developed,79.8,81.65,-1.85,1.85
+Namibia,2010,Developing,63.0,60.16,2.84,2.84
+Panama,2001,Developing,75.5,74.24,1.26,1.26
+Kazakhstan,2008,Developing,66.6,69.2,-2.6,2.6
+Ecuador,2012,Developing,75.5,74.23,1.27,1.27
+The former Yugoslav republic of Macedonia,2015,Developing,75.7,74.84,0.86,0.86
+Oman,2009,Developing,75.4,74.55,0.85,0.85
+Mongolia,2004,Developing,64.0,65.57,-1.57,1.57
+Benin,2008,Developing,57.6,58.86,-1.26,1.26
+Solomon Islands,2013,Developing,68.8,66.32,2.48,2.48
+Dominican Republic,2002,Developing,71.4,67.15,4.25,4.25
+Somalia,2007,Developing,51.5,66.44,-14.94,14.94
+Madagascar,2014,Developing,65.1,64.08,1.02,1.02
+Paraguay,2004,Developing,71.9,69.68,2.22,2.22
+Uganda,2003,Developing,51.0,52.01,-1.01,1.01
+Congo,2011,Developing,62.9,60.84,2.06,2.06
+Fiji,2004,Developing,68.1,69.27,-1.17,1.17
+Venezuela (Bolivarian Republic of),2003,Developing,72.4,71.55,0.85,0.85
+Trinidad and Tobago,2001,Developing,69.1,69.0,0.1,0.1
+Cabo Verde,2007,Developing,72.3,69.91,2.39,2.39
+Central African Republic,2003,Developing,45.7,49.5,-3.8,3.8
+Antigua and Barbuda,2003,Developing,74.2,63.52,10.68,10.68
+Nepal,2010,Developing,68.0,65.8,2.2,2.2
+Cuba,2006,Developing,78.0,74.7,3.3,3.3
+Chad,2005,Developing,48.6,51.26,-2.66,2.66
+United Kingdom of Great Britain and Northern Ireland,2009,Developed,81.0,80.02,0.98,0.98
+Slovenia,2004,Developed,77.2,77.31,-0.11,0.11
+Kuwait,2000,Developing,73.2,77.91,-4.71,4.71
+Finland,2015,Developing,81.1,82.06,-0.96,0.96
+Latvia,2005,Developed,76.0,71.09,4.91,4.91
+Sweden,2004,Developed,83.0,78.57,4.43,4.43
+Madagascar,2011,Developing,63.8,63.07,0.73,0.73
+Croatia,2009,Developed,76.3,78.21,-1.91,1.91
+Iceland,2006,Developed,81.1,82.62,-1.52,1.52
+Trinidad and Tobago,2003,Developing,69.3,70.62,-1.32,1.32
+Jordan,2013,Developing,73.9,75.81,-1.91,1.91
+Canada,2013,Developing,81.8,83.55,-1.75,1.75
+Nepal,2008,Developing,67.0,64.89,2.11,2.11
+Grenada,2014,Developing,73.5,73.36,0.14,0.14
+Sweden,2012,Developed,81.7,84.01,-2.31,2.31
+Ghana,2005,Developing,58.9,59.49,-0.59,0.59
+Cabo Verde,2009,Developing,72.4,70.75,1.65,1.65
+Timor-Leste,2015,Developing,68.3,69.26,-0.96,0.96
+Lebanon,2015,Developing,74.9,77.43,-2.53,2.53
+Nicaragua,2003,Developing,76.0,67.1,8.9,8.9
+Bahamas,2009,Developing,74.6,73.49,1.11,1.11
+Angola,2004,Developing,47.1,55.44,-8.34,8.34
+Costa Rica,2012,Developing,79.2,77.16,2.04,2.04
+Chile,2013,Developing,81.0,79.96,1.04,1.04
+Maldives,2008,Developing,75.9,75.03,0.87,0.87
+Angola,2014,Developing,51.7,58.94,-7.24,7.24
+Mali,2007,Developing,55.0,57.11,-2.11,2.11
+Estonia,2000,Developing,78.0,71.04,6.96,6.96
+Lao People's Democratic Republic,2014,Developing,65.3,66.69,-1.39,1.39
+Angola,2015,Developing,52.4,59.05,-6.65,6.65
+Democratic People's Republic of Korea,2000,Developing,65.4,71.0,-5.6,5.6
+Guinea-Bissau,2006,Developing,54.4,52.26,2.14,2.14
+Indonesia,2015,Developing,69.1,69.93,-0.83,0.83
+Saint Vincent and the Grenadines,2003,Developing,71.0,69.54,1.46,1.46
+Nepal,2005,Developing,65.4,68.26,-2.86,2.86
+Croatia,2007,Developed,75.8,76.25,-0.45,0.45
+Iran (Islamic Republic of),2015,Developing,75.5,78.75,-3.25,3.25
+Qatar,2006,Developing,76.6,80.84,-4.24,4.24
+Eritrea,2007,Developing,62.0,57.66,4.34,4.34
+Indonesia,2007,Developing,67.5,70.79,-3.29,3.29
+Albania,2006,Developing,74.2,75.28,-1.08,1.08
+Latvia,2007,Developed,78.0,71.35,6.65,6.65
+United Republic of Tanzania,2012,Developing,58.6,57.21,1.39,1.39
+Benin,2011,Developing,59.1,60.25,-1.15,1.15
+Republic of Moldova,2009,Developing,69.0,69.56,-0.56,0.56
+Mexico,2001,Developing,75.0,74.17,0.83,0.83
+Tonga,2013,Developing,73.2,73.88,-0.68,0.68
+Brazil,2006,Developing,73.0,71.55,1.45,1.45
+Haiti,2010,Developing,36.3,53.2,-16.9,16.9
+Niger,2015,Developing,61.8,60.07,1.73,1.73
+Russian Federation,2013,Developing,70.0,71.18,-1.18,1.18
+Seychelles,2012,Developing,72.7,71.96,0.74,0.74
+Montenegro,2015,Developing,76.1,75.64,0.46,0.46
+Montenegro,2004,Developing,73.5,74.38,-0.88,0.88
+Iraq,2010,Developing,76.0,71.78,4.22,4.22
+Timor-Leste,2002,Developing,62.0,61.98,0.02,0.02
+Bhutan,2006,Developing,65.8,62.63,3.17,3.17
+Iraq,2013,Developing,69.5,69.92,-0.42,0.42
+Belgium,2015,Developed,81.1,82.04,-0.94,0.94
+Guyana,2002,Developing,65.3,64.12,1.18,1.18
+Comoros,2009,Developing,61.3,62.07,-0.77,0.77
+Kyrgyzstan,2006,Developing,66.7,66.37,0.33,0.33
+Greece,2014,Developing,88.0,81.64,6.36,6.36
+Jamaica,2009,Developing,74.7,72.6,2.1,2.1
+Senegal,2003,Developing,59.0,60.09,-1.09,1.09
+Botswana,2001,Developing,46.7,49.07,-2.37,2.37
+United Kingdom of Great Britain and Northern Ireland,2011,Developed,86.0,81.18,4.82,4.82
+Sao Tome and Principe,2005,Developing,64.3,62.7,1.6,1.6
+Botswana,2002,Developing,46.0,48.88,-2.88,2.88
+Uruguay,2011,Developing,77.0,76.41,0.59,0.59
+Lesotho,2007,Developing,46.2,47.26,-1.06,1.06
+France,2014,Developed,82.2,81.23,0.97,0.97
+France,2006,Developed,86.0,79.47,6.53,6.53
+Morocco,2007,Developing,71.4,70.34,1.06,1.06
+Cyprus,2014,Developed,83.0,83.5,-0.5,0.5
+Namibia,2004,Developing,54.7,52.55,2.15,2.15
+Guinea-Bissau,2009,Developing,56.3,55.72,0.58,0.58
+Nicaragua,2002,Developing,75.0,66.64,8.36,8.36
+South Sudan,2010,Developing,55.0,53.24,1.76,1.76
+Somalia,2014,Developing,54.3,59.43,-5.13,5.13
+Fiji,2011,Developing,69.2,70.39,-1.19,1.19
+Paraguay,2007,Developing,72.5,70.67,1.83,1.83
+Maldives,2015,Developing,78.5,78.68,-0.18,0.18
+Iran (Islamic Republic of),2006,Developing,72.2,73.11,-0.91,0.91
+Chile,2005,Developing,78.4,78.29,0.11,0.11
+France,2013,Developed,82.0,80.95,1.05,1.05
+Niger,2002,Developing,51.4,55.16,-3.76,3.76
+Singapore,2003,Developed,79.3,79.87,-0.57,0.57
+Kyrgyzstan,2002,Developing,66.7,66.73,-0.03,0.03
+Myanmar,2012,Developing,65.9,65.89,0.01,0.01
+Ecuador,2013,Developing,76.0,74.74,1.26,1.26
+Tonga,2010,Developing,72.8,73.29,-0.49,0.49
+Oman,2013,Developing,76.2,74.67,1.53,1.53
+Ecuador,2011,Developing,75.3,73.6,1.7,1.7
+Uzbekistan,2004,Developing,67.8,68.16,-0.36,0.36
+Romania,2003,Developed,71.1,71.6,-0.5,0.5
+Nigeria,2007,Developing,55.0,55.49,-0.49,0.49
+Democratic People's Republic of Korea,2005,Developing,68.5,71.35,-2.85,2.85
+Egypt,2012,Developing,72.0,70.98,1.02,1.02
+Iran (Islamic Republic of),2000,Developing,73.0,71.95,1.05,1.05
+Latvia,2009,Developed,72.6,72.99,-0.39,0.39
+Australia,2004,Developed,86.0,82.19,3.81,3.81
+New Zealand,2011,Developed,86.0,81.8,4.2,4.2
+Zimbabwe,2005,Developing,44.6,45.71,-1.11,1.11
+Malaysia,2001,Developing,72.7,73.02,-0.32,0.32
+Costa Rica,2005,Developing,78.6,75.87,2.73,2.73
+Burkina Faso,2009,Developing,56.9,57.45,-0.55,0.55
+Guinea,2003,Developing,53.3,54.36,-1.06,1.06
+Kenya,2011,Developing,61.2,59.95,1.25,1.25
+Liberia,2001,Developing,51.5,55.29,-3.79,3.79
+Central African Republic,2014,Developing,58.0,51.79,6.21,6.21
+Switzerland,2001,Developed,82.0,81.52,0.48,0.48
+Bosnia and Herzegovina,2010,Developing,76.4,76.44,-0.04,0.04
+Botswana,2009,Developing,59.2,58.86,0.34,0.34
+Sao Tome and Principe,2015,Developing,67.5,68.17,-0.67,0.67
+Dominican Republic,2001,Developing,71.2,67.03,4.17,4.17
+Singapore,2011,Developed,82.2,79.15,3.05,3.05
+Bhutan,2004,Developing,64.2,62.48,1.72,1.72
+Norway,2014,Developed,81.6,84.55,-2.95,2.95
+Gabon,2007,Developing,61.6,60.33,1.27,1.27
+Grenada,2008,Developing,72.1,73.12,-1.02,1.02
+Micronesia (Federated States of),2000,Developing,67.0,65.43,1.57,1.57
+Peru,2001,Developing,72.4,71.54,0.86,0.86
+Malaysia,2009,Developing,74.0,74.49,-0.49,0.49
+Barbados,2003,Developing,73.7,74.58,-0.88,0.88
+Turkmenistan,2007,Developing,64.1,65.19,-1.09,1.09
+Finland,2001,Developing,78.0,76.99,1.01,1.01
+Cambodia,2014,Developing,68.3,66.55,1.75,1.75
+Lao People's Democratic Republic,2004,Developing,64.0,62.54,1.46,1.46
+Kenya,2002,Developing,52.1,52.03,0.07,0.07
+Solomon Islands,2010,Developing,68.3,65.66,2.64,2.64
+Argentina,2011,Developing,75.7,75.51,0.19,0.19
+Mauritania,2011,Developing,62.2,62.96,-0.76,0.76
+Dominican Republic,2007,Developing,72.9,69.37,3.53,3.53
+Equatorial Guinea,2006,Developing,54.8,58.43,-3.63,3.63
+Costa Rica,2002,Developing,78.3,75.92,2.38,2.38
+Tajikistan,2004,Developing,65.9,67.13,-1.23,1.23
+Belize,2005,Developing,69.0,69.2,-0.2,0.2
+Guinea-Bissau,2013,Developing,58.1,56.69,1.41,1.41
+Bhutan,2013,Developing,69.1,64.95,4.15,4.15
+Tonga,2001,Developing,71.8,71.83,-0.03,0.03
+Zimbabwe,2012,Developing,56.6,53.27,3.33,3.33
+South Africa,2010,Developing,58.0,57.04,0.96,0.96
+Burundi,2015,Developing,59.6,58.28,1.32,1.32
+Cameroon,2007,Developing,53.6,54.7,-1.1,1.1
+Congo,2003,Developing,53.2,54.5,-1.3,1.3
+Norway,2005,Developed,81.0,82.45,-1.45,1.45
+Uzbekistan,2003,Developing,67.2,68.13,-0.93,0.93
+Sao Tome and Principe,2004,Developing,63.8,62.54,1.26,1.26
+South Sudan,2004,Developing,51.4,52.12,-0.72,0.72
+Vanuatu,2012,Developing,71.4,69.86,1.54,1.54
+Cuba,2001,Developing,76.7,73.68,3.02,3.02
+Poland,2005,Developed,75.0,74.1,0.9,0.9
+Poland,2014,Developed,77.3,78.42,-1.12,1.12
+South Africa,2002,Developing,54.9,54.65,0.25,0.25
+El Salvador,2010,Developing,72.0,69.18,2.82,2.82
+Botswana,2008,Developing,57.5,57.12,0.38,0.38
+Turkey,2000,Developing,74.0,71.51,2.49,2.49
+Zimbabwe,2008,Developing,48.2,47.95,0.25,0.25
+Jamaica,2004,Developing,73.3,69.23,4.07,4.07
+Togo,2002,Developing,54.7,54.88,-0.18,0.18
+Benin,2009,Developing,58.4,59.74,-1.34,1.34
+Paraguay,2012,Developing,73.6,71.95,1.65,1.65
+Romania,2009,Developed,73.1,73.59,-0.49,0.49
+Malaysia,2007,Developing,73.7,73.83,-0.13,0.13
+Trinidad and Tobago,2006,Developing,69.6,71.03,-1.43,1.43
+Albania,2013,Developing,77.2,78.42,-1.22,1.22
+Costa Rica,2010,Developing,78.1,73.63,4.47,4.47
+Cuba,2012,Developing,78.7,77.62,1.08,1.08
+Mauritius,2007,Developing,72.9,71.66,1.24,1.24
+Viet Nam,2001,Developing,73.6,69.22,4.38,4.38
+Madagascar,2001,Developing,58.7,60.64,-1.94,1.94
+United Republic of Tanzania,2015,Developing,61.8,59.25,2.55,2.55
+Latvia,2002,Developed,73.0,70.06,2.94,2.94
+Mongolia,2014,Developing,68.4,69.72,-1.32,1.32
+Guyana,2013,Developing,65.9,67.55,-1.65,1.65
+Suriname,2006,Developing,69.3,69.2,0.1,0.1
+Djibouti,2011,Developing,61.8,59.51,2.29,2.29
+Qatar,2000,Developing,76.2,79.19,-2.99,2.99
+Madagascar,2008,Developing,62.3,61.96,0.34,0.34
+Rwanda,2008,Developing,68.0,57.46,10.54,10.54
+Philippines,2001,Developing,66.8,67.11,-0.31,0.31
+Czechia,2007,Developed,76.8,79.28,-2.48,2.48
+Trinidad and Tobago,2012,Developing,78.0,72.16,5.84,5.84
+Uzbekistan,2011,Developing,68.5,70.04,-1.54,1.54
+Nicaragua,2010,Developing,73.2,69.73,3.47,3.47
+Venezuela (Bolivarian Republic of),2013,Developing,73.8,73.89,-0.09,0.09
+Barbados,2004,Developing,73.8,74.91,-1.11,1.11
+Congo,2006,Developing,56.9,56.39,0.51,0.51
+Brazil,2007,Developing,73.3,71.63,1.67,1.67
+Portugal,2004,Developed,78.0,76.77,1.23,1.23
+Bhutan,2000,Developing,62.0,60.08,1.92,1.92
+Angola,2011,Developing,51.0,57.3,-6.3,6.3
+Republic of Korea,2012,Developing,81.2,78.96,2.24,2.24
+Namibia,2006,Developing,57.0,54.23,2.77,2.77
+Nepal,2006,Developing,66.0,68.41,-2.41,2.41
+Afghanistan,2015,Developing,65.0,62.16,2.84,2.84
+Suriname,2004,Developing,68.3,63.87,4.43,4.43
+Lesotho,2011,Developing,52.3,51.85,0.45,0.45
+Botswana,2007,Developing,56.9,56.39,0.51,0.51
+Equatorial Guinea,2008,Developing,55.4,58.55,-3.15,3.15
+Tunisia,2002,Developing,73.5,73.07,0.43,0.43
+Serbia,2014,Developing,75.4,75.73,-0.33,0.33
+Maldives,2002,Developing,71.8,70.31,1.49,1.49
+Iraq,2008,Developing,69.3,70.29,-0.99,0.99
+Cuba,2008,Developing,77.9,73.78,4.12,4.12
+United Republic of Tanzania,2004,Developing,51.5,55.52,-4.02,4.02
+Peru,2002,Developing,72.6,71.41,1.19,1.19
+Myanmar,2007,Developing,64.5,63.15,1.35,1.35
+Paraguay,2009,Developing,73.0,71.24,1.76,1.76
+Gambia,2006,Developing,58.2,57.42,0.78,0.78
+Kyrgyzstan,2011,Developing,69.4,68.52,0.88,0.88
+Kyrgyzstan,2005,Developing,66.9,66.48,0.42,0.42
+Greece,2010,Developing,83.0,81.26,1.74,1.74
+Lesotho,2000,Developing,49.3,48.88,0.42,0.42
+Bangladesh,2015,Developing,71.8,70.13,1.67,1.67
+Egypt,2014,Developing,78.0,71.01,6.99,6.99
+Bahamas,2001,Developing,72.9,72.86,0.04,0.04
+Argentina,2010,Developing,75.5,75.99,-0.49,0.49
+Germany,2002,Developed,78.4,79.48,-1.08,1.08
+Peru,2013,Developing,75.3,74.52,0.78,0.78
+Singapore,2001,Developed,78.7,79.6,-0.9,0.9
+Botswana,2000,Developing,47.8,49.35,-1.55,1.55
+Cyprus,2003,Developed,78.5,81.02,-2.52,2.52
+Sri Lanka,2000,Developing,71.5,69.63,1.87,1.87
+Austria,2015,Developed,81.5,82.74,-1.24,1.24
+Botswana,2011,Developing,62.2,61.59,0.61,0.61
+Afghanistan,2008,Developing,58.1,60.48,-2.38,2.38
+Guinea,2014,Developing,58.1,58.98,-0.88,0.88
+Ethiopia,2004,Developing,55.0,52.67,2.33,2.33
+Mongolia,2015,Developing,68.8,69.98,-1.18,1.18
+Gabon,2014,Developing,65.5,65.33,0.17,0.17
+Sao Tome and Principe,2014,Developing,67.3,66.82,0.48,0.48
+Bolivia (Plurinational State of),2012,Developing,69.8,68.44,1.36,1.36
+Egypt,2003,Developing,68.6,69.42,-0.82,0.82
+Croatia,2002,Developed,74.8,74.93,-0.13,0.13
+Brunei Darussalam,2000,Developing,74.4,76.98,-2.58,2.58
+Mongolia,2001,Developing,63.2,65.42,-2.22,2.22
+Suriname,2014,Developing,71.4,71.09,0.31,0.31
+Uganda,2008,Developing,56.3,53.78,2.52,2.52
+Tonga,2004,Developing,72.2,72.43,-0.23,0.23
+Grenada,2000,Developing,74.0,71.94,2.06,2.06
+Bahrain,2014,Developing,76.8,75.48,1.32,1.32
+Burundi,2005,Developing,53.4,51.72,1.68,1.68
+Canada,2001,Developing,79.4,76.49,2.91,2.91
+Bahrain,2008,Developing,75.8,80.72,-4.92,4.92
+Vanuatu,2015,Developing,72.0,71.54,0.46,0.46
+Ireland,2010,Developed,86.0,82.44,3.56,3.56
+Bahrain,2007,Developing,75.6,80.55,-4.95,4.95
+Mozambique,2012,Developing,54.8,51.48,3.32,3.32
+Saint Lucia,2005,Developing,73.1,73.13,-0.03,0.03
+Somalia,2011,Developing,53.1,59.93,-6.83,6.83
+Hungary,2006,Developed,73.4,73.0,0.4,0.4
+Viet Nam,2005,Developing,74.4,70.01,4.39,4.39
+Egypt,2005,Developing,69.4,69.83,-0.43,0.43
+Kiribati,2015,Developing,66.3,68.12,-1.82,1.82
+Kazakhstan,2010,Developing,67.8,70.22,-2.42,2.42
+Iceland,2009,Developed,81.6,83.71,-2.11,2.11
+Somalia,2000,Developing,55.0,59.01,-4.01,4.01
+Benin,2012,Developing,59.3,60.43,-1.13,1.13
+Canada,2006,Developing,85.0,82.29,2.71,2.71
+Madagascar,2007,Developing,61.9,61.78,0.12,0.12
+Indonesia,2005,Developing,67.2,70.29,-3.09,3.09
+Côte d'Ivoire,2013,Developing,52.3,55.35,-3.05,3.05
