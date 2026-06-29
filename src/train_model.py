@@ -7,14 +7,20 @@ import duckdb
 from sklearn.model_selection import train_test_split
 
 from src.config import load_config, get_project_path
+from src.logger import setup_logger
 from src.modeling import train_regression_model
 from src.preprocessing import preprocess_features
+
+
+logger = setup_logger(__name__)
 
 
 def load_modeling_data(database_path):
     """
     Load the official SQL modeling view from DuckDB.
     """
+    logger.info(f"Loading modeling data from DuckDB database: {database_path}")
+
     conn = duckdb.connect(database_path)
 
     try:
@@ -25,6 +31,8 @@ def load_modeling_data(database_path):
     finally:
         conn.close()
 
+    logger.info(f"Loaded modeling data with shape: {modeling_df.shape}")
+
     return modeling_df
 
 
@@ -33,6 +41,8 @@ def train_and_save_model() -> None:
     Train and persist the Version 3 deployable model using the same
     preprocessing and modeling workflow from Version 2.
     """
+
+    logger.info("Starting model training and persistence workflow.")
 
     config = load_config()
 
@@ -56,11 +66,19 @@ def train_and_save_model() -> None:
     log_features = config["model"]["log_features"]
     zero_to_nan_features = config["model"]["zero_to_nan_features"]
 
+    logger.info(f"Selected raw features: {selected_features}")
+    logger.info(f"Log-transform features: {log_features}")
+    logger.info(f"Zero-to-NaN features: {zero_to_nan_features}")
+
     X_train, X_test, y_train, y_test = train_test_split(
         X,
         y,
         test_size=config["model"]["test_size"],
         random_state=config["model"]["random_state"],
+    )
+
+    logger.info(
+        f"Created train/test split: X_train={X_train.shape}, X_test={X_test.shape}"
     )
 
     final_result = train_regression_model(
@@ -89,6 +107,8 @@ def train_and_save_model() -> None:
 
     processed_feature_names = list(X_train_prep.columns)
 
+    logger.info(f"Processed feature names: {processed_feature_names}")
+
     model_bundle = {
         "model": final_result["model"],
         "preprocessing_objects": preprocessing_objects,
@@ -103,6 +123,8 @@ def train_and_save_model() -> None:
     metadata_path = model_dir / "model_metadata.json"
 
     joblib.dump(model_bundle, model_path)
+
+    logger.info(f"Saved model bundle to: {model_path}")
 
     metadata = {
         "model_name": config["api"]["model_name"],
@@ -127,6 +149,12 @@ def train_and_save_model() -> None:
 
     with open(metadata_path, "w") as file:
         json.dump(metadata, file, indent=4)
+
+    logger.info(f"Saved model metadata to: {metadata_path}")
+    logger.info(
+        f"Model training complete. Test RMSE={metadata['test_rmse']}, "
+        f"Test R2={metadata['test_r2']}"
+    )
 
     print("Model training complete.")
     print(f"Saved model bundle to: {model_path}")

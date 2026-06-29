@@ -38,6 +38,6 @@
     "test_rmse": 2.8642,
     "train_r2": 0.9134,
     "test_r2": 0.9089,
-    "trained_at": "2026-06-24T22:20:00",
+    "trained_at": "2026-06-28T22:42:32",
     "model_artifact": "models/life_expectancy_model.joblib"
 }

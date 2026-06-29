@@ -9,3 +9,5 @@ pyyaml
 joblib
 fastapi
 uvicorn
+pytest
+httpx
