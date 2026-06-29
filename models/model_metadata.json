@@ -1,0 +1,43 @@
+{
+    "model_name": "Linear Regression",
+    "model_version": "v3",
+    "model_type": "LinearRegression",
+    "target": "life_expectancy",
+    "selected_features": [
+        "adult_mortality",
+        "income_composition_of_resources",
+        "schooling",
+        "bmi",
+        "gdp",
+        "hiv_aids"
+    ],
+    "processed_feature_names": [
+        "adult_mortality",
+        "income_composition_of_resources",
+        "schooling",
+        "bmi",
+        "gdp",
+        "hiv_aids",
+        "status_Developing"
+    ],
+    "log_features": [
+        "adult_mortality",
+        "gdp",
+        "hiv_aids",
+        "percentage_expenditure"
+    ],
+    "zero_to_nan_features": [
+        "gdp",
+        "percentage_expenditure"
+    ],
+    "train_rows": 1903,
+    "test_rows": 1025,
+    "test_size": 0.35,
+    "random_state": 42,
+    "train_rmse": 2.8062,
+    "test_rmse": 2.8642,
+    "train_r2": 0.9134,
+    "test_r2": 0.9089,
+    "trained_at": "2026-06-24T22:20:00",
+    "model_artifact": "models/life_expectancy_model.joblib"
+}

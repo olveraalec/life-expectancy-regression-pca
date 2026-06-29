@@ -5,3 +5,7 @@ seaborn
 scikit-learn
 jupyter
 duckdb
+pyyaml
+joblib
+fastapi
+uvicorn
