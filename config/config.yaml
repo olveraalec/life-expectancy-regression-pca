@@ -1,0 +1,50 @@
+paths:
+  raw_data: data/raw/life_expectancy.csv
+  database: data/database/life_expectancy.duckdb
+  processed_dir: data/processed
+  model_dir: models
+  log_dir: logs
+  experiment_dir: experiments
+
+model:
+  final_model: linear_regression
+  model_version: v3
+  test_size: 0.35
+  random_state: 42
+  selected_features:
+    - adult_mortality
+    - income_composition_of_resources
+    - schooling
+    - bmi
+    - gdp
+    - hiv_aids
+  zero_to_nan_features:
+    - gdp
+    - percentage_expenditure
+  log_features:
+    - adult_mortality
+    - gdp
+    - hiv_aids
+    - percentage_expenditure
+  ridge_alphas:
+    - 0.001
+    - 0.01
+    - 0.1
+    - 1
+    - 10
+    - 100
+  lasso_alphas:
+    - 0.0001
+    - 0.001
+    - 0.01
+    - 0.05
+    - 0.1
+    - 0.5
+    - 1
+
+api:
+  app_name: life-expectancy-api
+  model_name: Linear Regression
+  model_version: v3
+  host: 0.0.0.0
+  port: 8000
