@@ -296,7 +296,7 @@ http://127.0.0.1:8000/docs
 To view the notebook walkthrough:
 
 ```bash
-jupyter notebook life_expectancy_analysis.ipynb
+jupyter notebook notebooks/life_expectancy_analysis.ipynb
 ```
 
 To view the Power BI dashboard, open:
@@ -567,7 +567,8 @@ life-expectancy-regression-pca/
 |-- README.md
 |-- requirements.txt
 |-- run_pipeline.py
-|-- life_expectancy_analysis.ipynb
+|-- notebooks/
+|   |-- life_expectancy_analysis.ipynb
 ```
 
 ## Technologies Used
@@ -626,3 +627,4 @@ Potential next improvements include:
 - Automating dashboard data refresh from generated pipeline outputs
 
 The next modeling phase will happen after the deployment foundation is stable, so model improvements can be tested and promoted in a more realistic engineering workflow.
+
