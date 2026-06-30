@@ -1,4 +1,8 @@
-# Life Expectancy Prediction Pipeline Using SQL, Machine Learning, Power BI, FastAPI, Docker, and AWS EC2
+ï»¿# Life Expectancy Prediction Pipeline Using SQL, Machine Learning, Power BI, FastAPI, Docker, and AWS EC2
+
+## Current Status
+
+This branch, `version-3-api-deployment`, contains the Version 3A deployment upgrade. The FastAPI service has been tested locally, containerized with Docker, and deployed on AWS EC2 using an Amazon Linux 2023 instance.
 
 ## Project Overview
 
@@ -9,8 +13,6 @@ The original version of this project compared selected-feature Linear Regression
 Version 3A extends the project further into an engineering-focused machine learning deployment project. The final selected Linear Regression model is persisted as a reusable model artifact, served through a FastAPI REST API, tested with unit tests, containerized with Docker, and deployed on AWS EC2.
 
 The goal is not only to compare model performance, but also to demonstrate a complete workflow from raw data to processed outputs, model evaluation, dashboard-ready files, API serving, containerization, and cloud deployment.
-
----
 
 ## Project Evolution
 
@@ -44,16 +46,14 @@ Version 2 upgraded the project into a more structured analytics and modeling pip
 Version 3A turns the validated model workflow into a lightweight deployable ML service:
 
 - Config-driven project settings
-- Model persistence with `joblib`
+- Model persistence with joblib
 - Saved model metadata
 - FastAPI prediction service
-- JSON request/response validation
+- JSON request and response validation
 - Logging
-- Unit tests with `pytest`
+- Unit tests with pytest
 - Docker containerization
 - AWS EC2 deployment
-
----
 
 ## Business and Analytics Problem
 
@@ -62,8 +62,6 @@ Life expectancy is influenced by many overlapping factors, including mortality, 
 This project uses historical country-year data to estimate life expectancy from selected predictors. The goal is not to claim causal relationships, but to build a predictive and interpretable model that can support analytics, dashboarding, and deployment workflows.
 
 The final deployed model accepts a small set of interpretable inputs and returns a predicted life expectancy value through a REST API.
-
----
 
 ## Dataset
 
@@ -91,37 +89,33 @@ Predictors include variables related to:
 
 The dataset covers observations from 2000 to 2015 across 183 countries.
 
----
-
 ## Architecture
 
 ```text
 Raw CSV data
-    ?
+  ->
 DuckDB database
-    ?
+  ->
 SQL cleaning and modeling views
-    ?
+  ->
 Python preprocessing and modeling pipeline
-    ?
+  ->
 Processed CSV outputs
-    ?
+  ->
 Power BI dashboard
-    ?
+  ->
 Persisted model artifact
-    ?
+  ->
 FastAPI prediction service
-    ?
+  ->
 Docker container
-    ?
+  ->
 AWS EC2 deployment
 ```
 
----
-
 ## Project Workflow
 
-The full Version 2 data/model pipeline can be run from the terminal with:
+The full Version 2 data and model pipeline can be run from the terminal with:
 
 ```bash
 python run_pipeline.py
@@ -152,8 +146,6 @@ models/model_metadata.json
 
 The persisted model is then served through FastAPI.
 
----
-
 ## Modeling Approach
 
 This project compares four regression approaches:
@@ -163,16 +155,16 @@ This project compares four regression approaches:
 | Linear Regression | Selected-feature regression model optimized for interpretability |
 | Ridge Regression | Linear model with L2 regularization |
 | Lasso Regression | Linear model with L1 regularization and potential feature shrinkage |
-| PCA + Linear Regression | Dimensionality-reduced regression using principal components |
+| PCA plus Linear Regression | Dimensionality-reduced regression using principal components |
 
 The selected-feature models use six main raw predictors:
 
-- `adult_mortality`
-- `income_composition_of_resources`
-- `schooling`
-- `bmi`
-- `gdp`
-- `hiv_aids`
+- adult_mortality
+- income_composition_of_resources
+- schooling
+- bmi
+- gdp
+- hiv_aids
 
 The preprocessing pipeline also creates the encoded development-status feature:
 
@@ -181,8 +173,6 @@ status_Developing
 ```
 
 The PCA model uses a larger selected predictor set reduced to three principal components.
-
----
 
 ## Preprocessing Pipeline
 
@@ -197,48 +187,42 @@ The preprocessing workflow includes:
 - Standard scaling
 - Optional PCA transformation
 
-All train/test preprocessing is fit on training data only to avoid data leakage.
+All train and test preprocessing is fit on training data only to avoid data leakage.
 
 The deployed FastAPI model preserves the same Version 2 preprocessing behavior instead of using a separate simplified serving pipeline. This keeps the API model aligned with the validated analytics pipeline.
-
----
 
 ## Model Evaluation
 
 Models are evaluated using:
 
 - Root Mean Squared Error, RMSE
-- R-squared, R²
+- R-squared
 - Repeated K-fold cross-validation
 - Holdout test-set performance
-- Train/test comparison
+- Train and test comparison
 - Residual and absolute error analysis
 
 Ridge and Lasso alpha values are tuned using cross-validation on the training set only.
 
----
-
 ## Results
 
-The final model comparison showed that Linear Regression, Ridge Regression, and Lasso Regression performed almost identically. PCA + Linear Regression produced slightly weaker test performance, but remained competitive and provided a lower-dimensional representation.
+The final model comparison showed that Linear Regression, Ridge Regression, and Lasso Regression performed almost identically. PCA plus Linear Regression produced slightly weaker test performance, but remained competitive and provided a lower-dimensional representation.
 
-| Model | Setup | Test RMSE | Test R² | Main Interpretation |
+| Model | Setup | Test RMSE | Test R-squared | Main Interpretation |
 |---|---|---:|---:|---|
-| Linear Regression | 6 selected features | ~2.86 | ~0.91 | Best simple and interpretable model |
-| Ridge Regression | 6 selected features, tuned alpha | ~2.86 | ~0.91 | Similar to Linear Regression; regularization added little improvement |
-| Lasso Regression | 6 selected features, tuned alpha | ~2.86 | ~0.91 | Similar performance with L1 regularization |
-| PCA + Linear Regression | 10 features reduced to 3 components | ~3.08 | ~0.89 | Lower-dimensional but slightly less accurate |
+| Linear Regression | 6 selected features | about 2.86 | about 0.91 | Best simple and interpretable model |
+| Ridge Regression | 6 selected features, tuned alpha | about 2.86 | about 0.91 | Similar to Linear Regression; regularization added little improvement |
+| Lasso Regression | 6 selected features, tuned alpha | about 2.86 | about 0.91 | Similar performance with L1 regularization |
+| PCA plus Linear Regression | 10 features reduced to 3 components | about 3.08 | about 0.89 | Lower-dimensional but slightly less accurate |
 
 The deployed Version 3A Linear Regression artifact achieved approximately:
 
 | Metric | Value |
 |---|---:|
 | Test RMSE | 2.8642 |
-| Test R² | 0.9069 |
+| Test R-squared | 0.9069 |
 
 Overall, the selected-feature Linear Regression model is the preferred deployed model because it is accurate, simple, interpretable, and easy to serve through an API.
-
----
 
 ## FastAPI Prediction Service
 
@@ -275,9 +259,7 @@ POST /predict
 }
 ```
 
-The API accepts the user-friendly `status` field and internally converts it into the encoded feature expected by the trained model.
-
----
+The API accepts the user-friendly status field and internally converts it into the encoded feature expected by the trained model.
 
 ## Running the Project Locally
 
@@ -287,7 +269,7 @@ Clone the repository and install the required packages:
 pip install -r requirements.txt
 ```
 
-Run the full data/model pipeline:
+Run the full data and model pipeline:
 
 ```bash
 python run_pipeline.py
@@ -325,8 +307,6 @@ powerbi/life_expectancy_dashboard.pbix
 
 in Power BI Desktop.
 
----
-
 ## Running Tests
 
 The project includes unit tests for:
@@ -347,8 +327,6 @@ Expected result:
 ```text
 8 passed
 ```
-
----
 
 ## Logging
 
@@ -371,8 +349,6 @@ logs/.gitkeep
 ```
 
 Logging currently records model training, model persistence, API startup, health checks, and prediction requests.
-
----
 
 ## Docker Usage
 
@@ -399,8 +375,6 @@ For deployment-style usage with automatic restart:
 ```bash
 docker run -d -p 8000:8000 --restart unless-stopped --name life-expectancy-api-container life-expectancy-api
 ```
-
----
 
 ## AWS EC2 Deployment
 
@@ -453,8 +427,6 @@ http://<ec2-public-dns>:8000/docs
 
 Note: the EC2 public DNS can change when the instance is stopped and restarted unless an Elastic IP is attached.
 
----
-
 ## Power BI Dashboard
 
 A Power BI dashboard was created using the processed CSV outputs generated by the pipeline.
@@ -473,11 +445,9 @@ This page compares final model performance, Ridge and Lasso tuning behavior, and
 
 ### Prediction Error Analysis
 
-This page explores model prediction errors using actual vs. predicted life expectancy, average absolute error by status, average residuals over time, and the largest prediction errors.
+This page explores model prediction errors using actual versus predicted life expectancy, average absolute error by status, average residuals over time, and the largest prediction errors.
 
 ![Power BI Prediction Error Analysis](figures/powerbi_prediction_error_analysis.png)
-
----
 
 ## Original Model Visuals
 
@@ -487,15 +457,13 @@ The original notebook version included feature-count and PCA-component sweeps.
 
 ![RMSE vs Number of Features](figures/rmse_vs_features.png)
 
-![R² vs Number of Features](figures/r2_vs_features.png)
+![R-squared vs Number of Features](figures/r2_vs_features.png)
 
 ### PCA Component Sweep
 
 ![RMSE vs PCA Components](figures/rmse_vs_pca.png)
 
-![R² vs PCA Components](figures/r2_vs_pca.png)
-
----
+![R-squared vs PCA Components](figures/r2_vs_pca.png)
 
 ## Key Findings
 
@@ -503,108 +471,104 @@ Linear Regression, Ridge Regression, and Lasso Regression performed nearly ident
 
 Ridge Regression selected a very small optimal alpha value, meaning the regularized model behaved very similarly to standard Linear Regression. Lasso Regression also performed similarly, indicating that stronger coefficient shrinkage was not necessary for this selected feature set.
 
-PCA + Linear Regression had slightly weaker test performance, but it provided a compact lower-dimensional alternative. This supports the original project insight that many predictors contain overlapping information related to health, mortality, education, and economic development.
+PCA plus Linear Regression had slightly weaker test performance, but it provided a compact lower-dimensional alternative. This supports the original project insight that many predictors contain overlapping information related to health, mortality, education, and economic development.
 
 Prediction error analysis showed that the final model generally tracks actual life expectancy well, though larger errors occur for some country-year observations. These larger errors may reflect historical, political, healthcare, economic, or data-quality conditions not fully captured by the selected predictors.
 
 The results should be interpreted as predictive associations rather than causal effects because the dataset is observational.
 
----
-
 ## Repository Structure
 
 ```text
 life-expectancy-regression-pca/
-¦
-+-- app/
-¦   +-- __init__.py
-¦   +-- main.py
-¦   +-- model_loader.py
-¦   +-- predict.py
-¦   +-- schemas.py
-¦
-+-- config/
-¦   +-- config.yaml
-¦
-+-- data/
-¦   +-- raw/
-¦   ¦   +-- life_expectancy.csv
-¦   +-- database/
-¦   ¦   +-- life_expectancy.duckdb
-¦   +-- processed/
-¦       +-- overview_summary.csv
-¦       +-- status_summary.csv
-¦       +-- year_summary.csv
-¦       +-- country_summary.csv
-¦       +-- missingness_summary.csv
-¦       +-- modeling_life_expectancy.csv
-¦       +-- ridge_alpha_tuning.csv
-¦       +-- lasso_alpha_tuning.csv
-¦       +-- model_comparison.csv
-¦       +-- predictions.csv
-¦       +-- linear_regression_coefficients.csv
-¦
-+-- experiments/
-¦   +-- .gitkeep
-¦
-+-- figures/
-¦   +-- powerbi_dataset_overview.png
-¦   +-- powerbi_model_performance.png
-¦   +-- powerbi_prediction_error_analysis.png
-¦   +-- rmse_vs_features.png
-¦   +-- r2_vs_features.png
-¦   +-- rmse_vs_pca.png
-¦   +-- r2_vs_pca.png
-¦
-+-- logs/
-¦   +-- .gitkeep
-¦
-+-- models/
-¦   +-- life_expectancy_model.joblib
-¦   +-- model_metadata.json
-¦
-+-- powerbi/
-¦   +-- life_expectancy_dashboard.pbix
-¦
-+-- report/
-¦   +-- original_academic_report.pdf
-¦
-+-- sql/
-¦   +-- 01_create_raw_table.sql
-¦   +-- 02_create_clean_view.sql
-¦   +-- 03_data_quality_checks.sql
-¦   +-- 04_create_modeling_view.sql
-¦   +-- 05_dashboard_exports.sql
-¦
-+-- src/
-¦   +-- __init__.py
-¦   +-- build_database.py
-¦   +-- config.py
-¦   +-- evaluation.py
-¦   +-- export_dashboard_data.py
-¦   +-- export_model_outputs.py
-¦   +-- logger.py
-¦   +-- modeling.py
-¦   +-- preprocessing.py
-¦   +-- train_model.py
-¦
-+-- tests/
-¦   +-- conftest.py
-¦   +-- test_api.py
-¦   +-- test_config.py
-¦   +-- test_model_loader.py
-¦   +-- test_predict.py
-¦
-+-- .dockerignore
-+-- .gitignore
-+-- Dockerfile
-+-- README.md
-+-- requirements.txt
-+-- run_pipeline.py
-+-- life_expectancy_analysis.ipynb
+|
+|-- app/
+|   |-- __init__.py
+|   |-- main.py
+|   |-- model_loader.py
+|   |-- predict.py
+|   |-- schemas.py
+|
+|-- config/
+|   |-- config.yaml
+|
+|-- data/
+|   |-- raw/
+|   |   |-- life_expectancy.csv
+|   |-- database/
+|   |   |-- life_expectancy.duckdb
+|   |-- processed/
+|   |   |-- overview_summary.csv
+|   |   |-- status_summary.csv
+|   |   |-- year_summary.csv
+|   |   |-- country_summary.csv
+|   |   |-- missingness_summary.csv
+|   |   |-- modeling_life_expectancy.csv
+|   |   |-- ridge_alpha_tuning.csv
+|   |   |-- lasso_alpha_tuning.csv
+|   |   |-- model_comparison.csv
+|   |   |-- predictions.csv
+|   |   |-- linear_regression_coefficients.csv
+|
+|-- experiments/
+|   |-- .gitkeep
+|
+|-- figures/
+|   |-- powerbi_dataset_overview.png
+|   |-- powerbi_model_performance.png
+|   |-- powerbi_prediction_error_analysis.png
+|   |-- rmse_vs_features.png
+|   |-- r2_vs_features.png
+|   |-- rmse_vs_pca.png
+|   |-- r2_vs_pca.png
+|
+|-- logs/
+|   |-- .gitkeep
+|
+|-- models/
+|   |-- life_expectancy_model.joblib
+|   |-- model_metadata.json
+|
+|-- powerbi/
+|   |-- life_expectancy_dashboard.pbix
+|
+|-- report/
+|   |-- original_academic_report.pdf
+|
+|-- sql/
+|   |-- 01_create_raw_table.sql
+|   |-- 02_create_clean_view.sql
+|   |-- 03_data_quality_checks.sql
+|   |-- 04_create_modeling_view.sql
+|   |-- 05_dashboard_exports.sql
+|
+|-- src/
+|   |-- __init__.py
+|   |-- build_database.py
+|   |-- config.py
+|   |-- evaluation.py
+|   |-- export_dashboard_data.py
+|   |-- export_model_outputs.py
+|   |-- logger.py
+|   |-- modeling.py
+|   |-- preprocessing.py
+|   |-- train_model.py
+|
+|-- tests/
+|   |-- conftest.py
+|   |-- test_api.py
+|   |-- test_config.py
+|   |-- test_model_loader.py
+|   |-- test_predict.py
+|
+|-- .dockerignore
+|-- .gitignore
+|-- Dockerfile
+|-- README.md
+|-- requirements.txt
+|-- run_pipeline.py
+|-- life_expectancy_analysis.ipynb
 ```
-
----
 
 ## Technologies Used
 
@@ -634,15 +598,11 @@ life-expectancy-regression-pca/
 - Pytest
 - Docker
 - AWS EC2
-- Git/GitHub
-
----
+- Git and GitHub
 
 ## Original Academic Report
 
-The `report/` folder contains the original academic report from the first version of this project. The current repository extends that work into a reproducible SQL + Python pipeline with modular code, regularized regression models, prediction exports, Power BI dashboard outputs, and a deployable FastAPI service.
-
----
+The report folder contains the original academic report from the first version of this project. The current repository extends that work into a reproducible SQL and Python pipeline with modular code, regularized regression models, prediction exports, Power BI dashboard outputs, and a deployable FastAPI service.
 
 ## Future Improvements
 
